@@ -1,0 +1,82 @@
+{% if page.svgphys %}
+
+<svg style="display: none;">
+	<style type="text/css">
+	.black { stroke: #000; fill: #000; stroke-width: 1.25px; }
+	.red-curve { stroke: #f00; fill: none; stroke-width: 2.5px; }
+	.variable {
+		font-family: times;
+		font-size: 20px;
+		font-style: italic;
+		fill: black;
+		stroke: none;
+	}
+	.black-outline { stroke: black; fill: none; stroke-width: 1px; }
+	.white { stroke: black; fill: #fff; stroke-width: 2px; }
+	</style>
+	<defs>
+		<path id="arr50px" d="M0,0 h50 l-10,-3 v6 l10,-3" vector-effect="non-scaling-stroke" />
+		<g id="3d-axis">
+			<use xlink:href="#arr50px" />
+			<use xlink:href="#arr50px" transform="rotate(-90)" />
+			<circle x="0" y="0" r="5" fill="white" />
+			<circle x="0" y="0" r="2" />
+		</g>
+		<g id="xyz-axis">
+			<use xlink:href="#3d-axis" />
+			<text x="55" y="5" class="variable">x</text>
+			<text x="-5" y="-60" class="variable">y</text>
+			<text x="-20" y="15" class="variable">z</text>
+		</g>
+		<g id="yzx-axis">
+			<use xlink:href="#3d-axis" />
+			<text x="55" y="5" class="variable">y</text>
+			<text x="-5" y="-60" class="variable">z</text>
+			<text x="-20" y="15" class="variable">x</text>
+		</g>
+		<g id="zxy-axis">
+			<use xlink:href="#3d-axis" />
+			<text x="55" y="5" class="variable">z</text>
+			<text x="-5" y="-60" class="variable">x</text>
+			<text x="-20" y="15" class="variable">y</text>
+		</g>
+		<circle id="point" cx="0" cy="0" r="3" stroke="none" />
+		<g id="h-spring">
+			<desc>w = 120, h = 24</desc>
+			<path d="M0,12 h16 l8,-12 l8,24, l8,-24 l8,24, l8,-24 l8,24, l8,-24 l8,24, l8,-24 l8,24, l8,-12 h16" vector-effect="non-scaling-stroke" stroke-linejoin="bevel" />
+		</g>
+		<g id="block">
+			<desc>w = 40, h = 40</desc>
+			<path d="M0,0 v40 h40 v-40 z" />
+		</g>
+		<g id="floor">
+			<desc>w = 240, h = 10</desc>
+			<rect x1="0" y1="0" width="240" height="10" stroke="none" fill="#ddd"	/>
+			<line x1="0" y1="0" x2="240" y2="0" stroke="black" />
+		</g>
+		<g id="left-wall">
+			<desc>w = 10, h = 50</desc>
+			<rect x1="0" y1="0" width="10" height="50" stroke="none" fill="#ddd"	/>
+			<line x1="10" y1="0" x2="10" y2="50" stroke="black" />
+		</g>
+		<g id="sphere-3-circles">
+			<path d="M 20,150 a 130,130 0 0,0 260,0 a 130,130 0 0,0 -260,0" fill="none" stroke="#44f" stroke-width="1" vector-effect="non-scaling-stroke" />
+			<path d="M 150,20 a 40,130 0 0,0 0,260" fill="none" stroke="#44f" stroke-width="1" vector-effect="non-scaling-stroke" />
+			<path d="M 150,20 a 40,130 0 0,1 0,260" fill="none" stroke="#44f" stroke-width="1" stroke-dasharray="4 2" vector-effect="non-scaling-stroke" />
+
+			<path d="M 20,150 a 130,40 0 0,0 260,0" fill="none" stroke="#44f" stroke-width="1" vector-effect="non-scaling-stroke" />
+			<path d="M 20,150 a 130,40 0 0,1 260,0" fill="none" stroke="#44f" stroke-width="1" stroke-dasharray="4 2" vector-effect="non-scaling-stroke" />
+
+			<circle cx="20" cy="150" r="2" stroke="black" vector-effect="non-scaling-stroke" />
+			<circle cx="280" cy="150" r="2" fill="black" vector-effect="non-scaling-stroke" />
+
+			<circle cx="150" cy="20" r="2" stroke="black" vector-effect="non-scaling-stroke" />
+			<circle cx="150" cy="280" r="2" stroke="black" vector-effect="non-scaling-stroke" />
+
+			<circle cx="188" cy="112" r="2" stroke="black" vector-effect="non-scaling-stroke" />
+			<circle cx="112" cy="188" r="2" stroke="black" vector-effect="non-scaling-stroke" />
+		</g>
+	</defs>
+</svg>
+
+{% endif %}
