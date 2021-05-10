@@ -1,0 +1,2 @@
+# item
+Interconnected terms model
