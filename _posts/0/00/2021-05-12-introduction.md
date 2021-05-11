@@ -17,7 +17,7 @@ date: 2021-05-12 06:03:00 +07
 permalink: /0000
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-introduction.md
 twitter_username: 6unpnp
-items: ['0001', 'zzzz']
+items: ['0001', '0002']
 ---
 Item is a abbreviation of interconnected terms explanation machine, which is designed how to enhance the visualization of interconnect terms to support their single explanation.
 
