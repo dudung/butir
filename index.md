@@ -1,9 +1,9 @@
 ---
 layout: default
-title: code
+title: item
 ---
 
-# item -- interconnected terms explanation machine
+# item
 
 <!-- Html Elements for Search -->
 <div id="search-container">
