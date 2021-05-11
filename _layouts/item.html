@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% include ptext.html %}
+{% include mathjax.html %}
+{% include chartjs.html %}
+{% include x3dom.html %}
+{% include threejs.html %}
+{% include 3dmol.html %}
+{% include oo.html %}
+{% include svgphys.html %}
+
+<h1>{{ page.title }}</h1>
+
+{% capture tweet_url %}
+https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&screen_name={{ page.twitter_username }}&hashtags=code_{{ page.pid }}
+{% endcapture %}
+
+{% capture tweet_msg %}
+&text=
+{% endcapture %}
+
+<p>
+{{ page.date | date_to_string }}
+{% assign author = site.authors | where: 'short_name', page.author | first %}
+{% if author %}
+	- <a href="{{site.baseurl}}{{ author.url }}" title="Browse author information">{{ author.name }}</a>
+{% endif %} 
+| <a href="{{ page.src }}" title="See article history">History</a> |
+<a id='comment' href="{{ tweet_url }}" name="{{ tweet_msg }}" rel="nofollow" target="_blank" title="Give comment on Twitter">Comment</a>
+</p>
+
+<script>
+function rnd(){return Math.round(65535*Math.random()).toString(16)};
+var a = document.getElementById("comment");
+a.name = a.name + "[" + rnd() + "]";
+a.href = a.href + a.name;
+</script>
+
+{{ content }}
