@@ -6,19 +6,29 @@
 	{% assign datestr = "" %}
 	{% endif %}
 	
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% assign author = site.authors | where: 'short_name', page.authors | first %}
 	
 	{% 
 		if page.layout == "item"
+		or page.layout == "author"
 		or page.title != "item"
-		and page.title != "About"
-		and page.title != "Viridi"
 	%}
 	<br clear="all">
 	<div class="citation">
 	Cite as: {{ author.name }}, "{{ page.title }}" in <i>item -- interconnected terms explanation machine</i>, {{ datestr }} url <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ page.url }}</a> [accessed {{ "now" | date: "%d %b %Y" }}].
 	{% endif %}
 	</div>
+
+
+{% for i in page.items %}
+{{ i }}
+{% endfor %}
+
+{% for a in page.authors %}
+  {% assign author = site.authors | where: 'short_name', a | first %}
+{{ author.name }}
+{% endfor %}
+
 
 {% comment %}
 There are are only <a href="https://statcounter.com/p12522089/?guest=1"><!-- Default Statcounter code for code
@@ -43,4 +53,3 @@ alt="Web Analytics"></a></div></noscript>
 {% endcomment %}
 
 </nav>
-

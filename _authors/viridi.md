@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: viridi
 name: Sparisoma Viridi
 position: Creator and project leader

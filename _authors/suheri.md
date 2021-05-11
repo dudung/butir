@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: suheri
 name: Tatang Suheri
 position: Author

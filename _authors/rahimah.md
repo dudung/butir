@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: rahimah
 name: Souvia Rahimah
 position: Author

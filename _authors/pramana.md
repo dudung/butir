@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: pramana
 name: ‪Setia Pramana
 position: Author

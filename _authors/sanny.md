@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: sanny
 name: ‪Teuku Abdullah Sanny‬
 position: Author

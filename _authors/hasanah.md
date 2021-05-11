@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: hasanah
 name: Aas Wasri Hasanah
 position: Author
