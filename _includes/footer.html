@@ -6,29 +6,24 @@
 	{% assign datestr = "" %}
 	{% endif %}
 	
-  {% assign author = site.authors | where: 'short_name', page.authors | first %}
+	{% assign authors = "" %}
+	{% for a in page.authors %}
+		{% assign author = site.authors | where: "short_name", a | first %}
+	{% assign namelink = "<a href='" | append: site.baseurl | append: author.url | append: "'>" | append: author.name | append: "</a>" %}
+	
+	{% assign authors = authors | append: namelink | append: ", " %}
+	{% endfor %}
 	
 	{% 
-		if page.layout == "item"
-		or page.layout == "author"
-		or page.title != "item"
+		if page.title != "item"
+		and page.layout != "author"
+		or page.layout == "item"
 	%}
 	<br clear="all">
 	<div class="citation">
-	Cite as: {{ author.name }}, "{{ page.title }}" in <i>item -- interconnected terms explanation machine</i>, {{ datestr }} url <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ page.url }}</a> [accessed {{ "now" | date: "%d %b %Y" }}].
+	Cite as: {{ authors }} "{{ page.title }}" in <i>item -- interconnected terms explanation machine</i>, {{ datestr }} url <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ page.url }}</a> [accessed {{ "now" | date: "%d %b %Y" }}].
 	{% endif %}
 	</div>
-
-
-{% for i in page.items %}
-{{ i }}
-{% endfor %}
-
-{% for a in page.authors %}
-  {% assign author = site.authors | where: 'short_name', a | first %}
-{{ author.name }}
-{% endfor %}
-
 
 {% comment %}
 There are are only <a href="https://statcounter.com/p12522089/?guest=1"><!-- Default Statcounter code for code
