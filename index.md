@@ -3,7 +3,7 @@ layout: default
 title: code
 ---
 
-# code -- learning physics through code
+# item -- interconnected terms explanation machine
 
 <!-- Html Elements for Search -->
 <div id="search-container">
