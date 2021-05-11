@@ -1,2 +1,2 @@
 # item
-Interconnected terms model
+Interconnected terms mapping
