@@ -9,13 +9,14 @@
   {% assign author = site.authors | where: 'short_name', page.author | first %}
 	
 	{% 
-		if page.title != "item"
+		if page.layout == "item"
+		or page.title != "item"
 		and page.title != "About"
 		and page.title != "Viridi"
 	%}
 	<br clear="all">
 	<div class="citation">
-	Cite as: {{ author.name }}, "{{ page.title }}" in <i>code -- learning physics through code</i>, {{ datestr }} url <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ page.url }}</a> [accessed {{ "now" | date: "%d %b %Y" }}].
+	Cite as: {{ author.name }}, "{{ page.title }}" in <i>item -- interconnected terms explanation machine</i>, {{ datestr }} url <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ page.url }}</a> [accessed {{ "now" | date: "%d %b %Y" }}].
 	{% endif %}
 	</div>
 
