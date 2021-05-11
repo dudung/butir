@@ -1,2 +1,2 @@
 # item
-Interconnected terms mapping
+interconnected terms explanation mapping
