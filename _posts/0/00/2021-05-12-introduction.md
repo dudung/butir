@@ -26,3 +26,4 @@ This fourth version is due to covering more topics other than physics and progrm
 `10 Apr 2021` | Create [this(4)](https://dudung.github.io/item) from [code(3)](https://dudung.github.io/code) from [soal(2)](https://dudung.github.io/soal) from [butiran(1)](https://butiran.github.io).
 `12 Apr 2021` | Create this first post, use [Liquid ](https://shopify.github.io/liquid/) for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2&times;2) $\color{#0c0}\checkmark$, fix mapped link with CSS (hidden by h1) $\color{#0c0}\checkmark$.
 `xx Apr 2021` | $\large\color{#c00}\times$
+
