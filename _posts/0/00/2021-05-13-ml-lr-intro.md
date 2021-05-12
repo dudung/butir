@@ -3,7 +3,7 @@ layout: item
 authors: [viridi]
 title: lr as intro to ml
 pid: '0002'
-mathjax: false
+mathjax: true
 chartjs: false
 ptext: false
 x3dom: false
@@ -15,7 +15,7 @@ category: data
 tags: ["machine learning", "linear regression"]
 date: 2021-05-13 05:26:00 +07
 permalink: /0002
-src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-13-ml-lr-intro.md
+src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-13-linreg-intro.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
@@ -43,7 +43,7 @@ Kesalahan antara data dan prediktor diberikan oleh
 \varepsilon = \sum_{i = 1}^N (a + b x_i - y_i)^2.
 \end{equation}
 
-Persamaan \ref{eqn:0265-1} dan \ref{eqn:0265-2} diperoleh dengan menggunakan Persamaan \eqref{eqn:0265-3} melalui
+Persamaan \eqref{eqn:0265-1} dan \eqref{eqn:0265-2} diperoleh dengan menggunakan Persamaan \eqref{eqn:0265-3} melalui
 
 \begin{equation}\label{eqn:0265-4}
 \frac{\partial \varepsilon}{\partial a} = 0, \ \ \ \ \frac{\partial \varepsilon}{\partial b} = 0.
@@ -75,3 +75,5 @@ B | $2$, $1.0$, $0.5$.
 C | $0.5$, $1.0$, $2$.
 D | $0.5$, $2$, $1.0$.
 E | $1.0$, $2$, $0.5$.
+
+https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer
