@@ -13,7 +13,7 @@ oo: true
 svgphys: true
 category: item
 tags: ["introduction", "log"]
-date: 2021-05-12 17:30:00 +07
+date: 2021-05-12 17:36:00 +07
 permalink: /0000
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-introduction.md
 twitter_username: 6unpnp
