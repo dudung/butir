@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: item
 tags: ["resources", "physics"]
-date: 2021-05-12 20:25:00 +07
+date: 2021-05-12 20:44:00 +07
 permalink: /0001
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-resources.md
 twitter_username: 6unpnp
@@ -21,7 +21,7 @@ nodes: ['0000']
 ---
 Based on resources available in the internet the item (interconnected terms explanation machine) is tailored to support students in learning physics and related field.
 
-Following are the resources that are frequently used in the item
+The resources frequently used in the item are as follow
 + [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/index.html)
 + [Encyclopedia Britannica](https://www.britannica.com/science/physics-science)
 + [Wikipedia](https://en.wikipedia.org/wiki/Portal:Physics)
