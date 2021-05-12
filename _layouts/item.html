@@ -9,6 +9,7 @@ layout: default
 {% include 3dmol.html %}
 {% include oo.html %}
 {% include svgphys.html %}
+{% include nodes.html %}
 
 <h1>{{ page.title }}</h1>
 
@@ -34,12 +35,6 @@ https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url
 {% if authors %} {{ authors }} {% endif %} 
 | <a href="{{ page.src }}" title="See article history">History</a> |
 <a id='comment' href="{{ tweet_url }}" name="{{ tweet_msg }}" rel="nofollow" target="_blank" title="Give comment on Twitter">Comment</a>
-</p>
-
-<p>
-{% for n in page.nodes %}
-{{ n }}
-{% endfor %}
 </p>
 
 <script>
