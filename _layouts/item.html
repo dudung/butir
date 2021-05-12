@@ -15,7 +15,7 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
 
 {% capture tweet_url %}
-https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&screen_name={{ page.twitter_username }}&hashtags=item_{{ page.pid }}
+https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&screen_name={{ page.twitter_username }}&hashtags=item_{{ page.pid }} {{ page.title | append: ": " }}
 {% endcapture %}
 
 {% capture tweet_msg %}
