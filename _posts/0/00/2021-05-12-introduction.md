@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: item
 tags: ["introduction", "log"]
-date: 2021-05-12 15:49:00 +07
+date: 2021-05-12 16:26:00 +07
 permalink: /0000
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-introduction.md
 twitter_username: 6unpnp
@@ -24,4 +24,5 @@ Item (interconnected terms explanation machine) is designed to enhance the visua
 This fourth version is due to covering more topics other than physics and progrmming.
 
 `10 Apr 2021` | Create [this(4)](https://dudung.github.io/item) from [code(3)](https://dudung.github.io/code) from [soal(2)](https://dudung.github.io/soal) from [butiran(1)](https://butiran.github.io).
-`12 Apr 2021` | Create this first post, use [Liquid ](https://shopify.github.io/liquid/) for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2&times;2) $\color{#0c0}\checkmark$, fix mapped link $\large\color{#c00}\times$.
+`12 Apr 2021` | Create this first post, use [Liquid ](https://shopify.github.io/liquid/) for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2&times;2) $\color{#0c0}\checkmark$, fix mapped link with CSS (hidden by h1) $\color{#0c0}\checkmark$.
+`xx Apr 2021` | $\large\color{#c00}\times$
