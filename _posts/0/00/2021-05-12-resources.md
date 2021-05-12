@@ -3,7 +3,7 @@ layout: item
 authors: [viridi]
 title: resources
 pid: '0001'
-mathjax: true
+mathjax: false
 chartjs: false
 ptext: false
 x3dom: false
@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: item
 tags: ["resources", "physics"]
-date: 2021-05-12 20:44:00 +07
+date: 2021-05-12 20:47:00 +07
 permalink: /0001
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-resources.md
 twitter_username: 6unpnp
