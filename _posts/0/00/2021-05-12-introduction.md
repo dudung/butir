@@ -17,7 +17,7 @@ date: 2021-05-12 06:30:00 +07
 permalink: /0000
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-introduction.md
 twitter_username: 6unpnp
-nodes: ['0001', '0002']
+nodes: ['0001', '0002', '0003', '0004', '0005', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014']
 ---
 Item (interconnected terms explanation machine) is designed to enhance the visualization of interconnect terms to support their brief and concise explanation. It is more than a [wiki](https://en.wikipedia.org/wiki/Wiki) nor a [concept map](https://ctl.byu.edu/tip/concept-mapping), made using [Jekyll](https://jekyllrb.com/), and can be cloned from [Github](https://github.com/dudung/item) then customized to match everyone particular need. 
 
