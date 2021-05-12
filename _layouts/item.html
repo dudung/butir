@@ -22,7 +22,7 @@ https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url
 
 <p>
 {{ page.date | date_to_string }}
-{% assign author = site.authors | where: 'short_name', page.author | first %}
+{% assign author = site.author | where: 'short_name', page.author | first %}
 {% if author %}
 	- <a href="{{ site.baseurl }}{{ author.url }}" title="Browse author information">{{ author.name }}</a>
 {% endif %} 
