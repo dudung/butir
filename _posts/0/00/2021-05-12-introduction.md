@@ -24,4 +24,4 @@ Item is a abbreviation of interconnected terms explanation machine, which is des
 This fourth version is due to covering more topics other than physics and progrmming.
 
 `10 Apr 2021` | Create [this(4)](https://dudung.github.io/item) from [code(3)](https://dudung.github.io/code) from [soal(2)](https://dudung.github.io/soal) from [butiran(1)](https://butiran.github.io).
-`12 Apr 2021` | Create this first post, use Liquid for showing multiple authors $\color{#0c0}\checkmark$, add items for mapping $\large\color{#c00}\times$.
+`12 Apr 2021` | Create this first post, use Liquid for showing multiple authors $\color{#0c0}\checkmark$, add items for mapping $\large\color{#c00}\times$, fix something $\large\color{#c00}\times$.
