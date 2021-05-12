@@ -2,9 +2,9 @@
 
 <div class="nodes_container">
 {% for n in page.nodes %}
-<span class="nodes">
-<a href="{{ site.baseurl }}/{{ n }}">{{ n }}</a>
-</span>
+<a href="{{ site.baseurl }}/{{ n }}">
+<div class="nodes">{{ n }}</div>
+</a>
 {% endfor %}
 </div>
 

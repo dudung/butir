@@ -1,5 +1,14 @@
 .nodes {
-  font-size: 10px;
+  font-size: 11px;
+  float: right;
+	//font-family: Courier new;
+	width: 16px;
+	border: 3px solid white;
+	word-wrap: break-word;
+	padding: 0px;
+	text-align: center;
+	line-height: 1em;
+	background: #eee;
 }
 
 .nodes_container {
