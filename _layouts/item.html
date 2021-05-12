@@ -30,13 +30,13 @@ https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url
 {% assign authors = authors | append: " &bull; " | append: namelink %}
 {% endfor %}
 
-<p>
+<div class="date-author-history-comment">
 {{ page.date | date_to_string }}
 {% assign author = site.author | where: 'short_name', page.authors | first %}
 {% if authors %} {{ authors }} {% endif %} 
 | <a href="{{ page.src }}" title="See article history">History</a> |
 <a id='comment' href="{{ tweet_url }}" name="{{ tweet_msg }}" rel="nofollow" target="_blank" title="Give comment on Twitter">Comment</a>
-</p>
+</div>
 
 <script>
 function rnd(){return Math.round(65535*Math.random()).toString(16)};

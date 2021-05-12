@@ -1,6 +1,5 @@
 .nodes {
   font-size: 11px;
-  float: right;
 	width: 16px;
 	border: 3px solid white;
 	word-wrap: break-word;
@@ -9,13 +8,32 @@
 	line-height: 1em;
 	color: #fff;
 	background: #080;
+  float: right;
 }
 
-.nodes_container {
+h1 {
+  float: left;
+}
+
+.date-author-history-comment {
+	clear: left;
+}
+
+.empty-container {
+	position: relative;
+	width: 0;
+	height: 0;
+	float: right;
+}
+
+.nodes-container {
+	position: absolute;
+	top: -30px;
+	left: -100px;
   float: right;
   width: 96px;
 	text-align: right;
-	border: 1px solid black;
+	border: 0px solid black;
 }
 
 .current {
