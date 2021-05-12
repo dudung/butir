@@ -1,7 +1,7 @@
 ---
 layout: item
 authors: [viridi]
-title: lr as intro to ml
+title: linear regression intro
 pid: '0002'
 mathjax: true
 chartjs: false
@@ -61,19 +61,41 @@ dan
 b^+ = b - \eta \frac{\partial \varepsilon}{\partial b}
 \end{equation}
 
-dengan $\eta$ adalah laju belajar. Indeks atas $+$ menunjukkan nilai baru dari kedua parameter, yang diubah agar kesalahan $\varepsilon$ berkurang. Idealnya akan tercapai nilai $a$ dan $b$ seperti pada Persamaan \eqref{eqn:0265-1} dan \eqref{eqn:0265-2}, yang tak lain adalah $a^+$ dan $b^+$ pada Persamaan \eqref{eqn:0265-5} dan \eqref{eqn:0265-6} saat Persamaan \eqref{eqn:0265-4} terpenuhi. Selanjutnya, Persamaan \eqref{eqn:0265-1} dan \eqref{eqn:0265-2} dapat dihitung menggunakan kode Python berikut.
+dengan $\eta$ adalah laju belajar. Indeks atas $+$ menunjukkan nilai baru dari kedua parameter, yang diubah agar kesalahan $\varepsilon$ berkurang. Idealnya akan tercapai nilai $a$ dan $b$ seperti pada Persamaan \eqref{eqn:0265-1} dan \eqref{eqn:0265-2}, yang tak lain adalah $a^+$ dan $b^+$ pada Persamaan \eqref{eqn:0265-5} dan \eqref{eqn:0265-6} saat Persamaan \eqref{eqn:0265-4} terpenuhi. 
 
-<iframe src="https://trinket.io/embed/python/d7335e9ae0" width="100%" height="460" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Selanjutnya, Persamaan \eqref{eqn:0265-1} dan \eqref{eqn:0265-2} dapat dihitung menggunakan kode Python berikut
 
-x | 0 | 1 | 2 | 3 | 4 | 5
-y | 0.5 | 2.5 | 4.5 | 6.5 | 8.5 | 10.5
+```python
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+y = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+N = min(len(x), len(y))
+Sx = 0
+Sy = 0
+Sx2 = 0
+Sxy = 0
+for i in range(0, N):
+  Sx += x[i]
+  Sy += y[i]
+  Sx2 += x[i] * x[i]
+  Sxy += x[i] * y[i]
+xavg = Sx / N
+yavg = Sy / N
+SSxx = 0
+SSyy = 0
+SSxy = 0
+for i in range(0, N):
+  SSxx += (x[i] - xavg) * (x[i] - xavg)
+  SSxy += (x[i] - xavg) * (y[i] - yavg)
+  SSyy += (y[i] - yavg) * (y[i] - xavg)
+a = (Sy * Sx2 - Sx * Sxy) / (N * Sx2 - Sx * Sx)
+b = (N * Sxy - Sx * Sy) / (N * Sx2 - Sx * Sx)
+R2 = (SSxy * SSxy) / (SSxx * SSyy)
+print(a, b, R2)
+```
 
-Nilai $R^2$, $b$, dan $a$ untuk data di atas adalah
+yang dapat dijalankan secara langsung dengan [Trinket/d7335e9ae0](https://trinket.io/embed/python/d7335e9ae0).
 
-A | $2$, $0.5$, $1.0$.
-B | $2$, $1.0$, $0.5$.
-C | $0.5$, $1.0$, $2$.
-D | $0.5$, $2$, $1.0$.
-E | $1.0$, $2$, $0.5$.
+
+## refs
 
 https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer
