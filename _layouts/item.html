@@ -23,7 +23,7 @@ https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url
 {% assign authors = "" %}
 {% for a in page.authors %}
 	{% assign author = site.authors | where: "short_name", a | first %}
-{% assign namelink = "<a href='" | append: site.baseurl | append: author.url | append: "'>" | append: author.name | append: "</a>" %}
+{% assign namelink = "<a href='" | append: site.baseurl | append: author.url | append: "'>" | append: author.short_name | append: "</a>" %}
 
 {% assign authors = authors | append: " &bull; " | append: namelink %}
 {% endfor %}
