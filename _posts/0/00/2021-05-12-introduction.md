@@ -4,26 +4,25 @@ authors: [viridi, dini]
 title: introduction
 pid: '0000'
 mathjax: true
-chartjs: false
-ptext: false
-x3dom: false
-threejs: false
-3dmol: false
-oo: false
-svgphys: false
+chartjs: true
+ptext: true
+x3dom: true
+threejs: true
+3dmol: true
+oo: true
+svgphys: true
 category: item
 tags: ["introduction", "log"]
-date: 2021-05-12 16:28:00 +07
+date: 2021-05-12 17:30:00 +07
 permalink: /0000
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-introduction.md
 twitter_username: 6unpnp
 nodes: ['0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014']
 ---
-Item (interconnected terms explanation machine) is designed to enhance the visualization of interconnect terms to support their brief and concise explanation. It is more than a [wiki](https://en.wikipedia.org/wiki/Wiki) nor a [concept map](https://ctl.byu.edu/tip/concept-mapping), made using [Jekyll](https://jekyllrb.com/), and can be cloned from [Github](https://github.com/dudung/item) then customized to match everyone particular need. 
+Item (interconnected terms explanation machine) is designed to enhance interconnectitivy of terms to support their brief and concise explanation. It is more than a [wiki](https://en.wikipedia.org/wiki/Wiki) nor a [concept map](https://ctl.byu.edu/tip/concept-mapping), made using [Jekyll](https://jekyllrb.com/), and can be cloned from [Github](https://github.com/dudung/item) then customized to match everyone particular need. 
 
 This fourth version is due to covering more topics other than physics and progrmming.
 
 `10 Apr 2021` | Create [this(4)](https://dudung.github.io/item) from [code(3)](https://dudung.github.io/code) from [soal(2)](https://dudung.github.io/soal) from [butiran(1)](https://butiran.github.io).
 `12 Apr 2021` | Create this first post, use [Liquid ](https://shopify.github.io/liquid/) for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2&times;2) $\color{#0c0}\checkmark$, fix mapped link with CSS (hidden by h1) $\color{#0c0}\checkmark$.
 `xx Apr 2021` | $\large\color{#c00}\times$
-
