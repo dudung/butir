@@ -12,8 +12,8 @@ threejs: false
 oo: false
 svgphys: false
 category: data
-tags: ["machine learning", "linear regression"]
-date: 2021-05-13 05:26:00 +07
+tags: ["machine learning", "linear regression", "introduction"]
+date: 2021-05-13 05:38:00 +07
 permalink: /0002
 src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-13-linreg-intro.md
 twitter_username: 6unpnp
