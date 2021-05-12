@@ -1,10 +1,11 @@
 {% if page.nodes %}
 
-<div style="float:right;">
+
 {% for n in page.nodes %}
+<div class="nodes">
 <a href="{{ site.baseurl }}/{{ n }}">{{ n }}</a>
-{% endfor %}
 </div>
+{% endfor %}
 
 {% endif %}
 
