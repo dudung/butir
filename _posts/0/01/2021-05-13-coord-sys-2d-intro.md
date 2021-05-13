@@ -20,3 +20,7 @@ twitter_username: 6unpnp
 nodes: ['0000']
 ---
 ..
+
+![](assets/img/0/01/0010-a.png) | ![](assets/img/0/01/0010-b.png)
+![](assets/img/0/01/0010-b.png) | ![](assets/img/0/01/0010-d.png)
+
