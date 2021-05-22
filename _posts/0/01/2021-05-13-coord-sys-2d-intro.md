@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: butir
 authors: [viridi]
 title: coord sys 2d intro
 pid: '0010'

@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: butir
 authors: [viridi]
 title: resources
 pid: '0001'
