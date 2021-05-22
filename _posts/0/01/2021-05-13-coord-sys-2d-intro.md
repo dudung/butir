@@ -35,7 +35,7 @@ Untuk arah $y$ pemilhan ke atas atau ke bawah dapat bergantung dari gerak arah b
 
 ## butir
 [dot cross direction](0011) &bull;
-[coord sys 3d intro](0012)
+[coord sys 3d proj 2d intro](0012)
 
 
 ## catatan
