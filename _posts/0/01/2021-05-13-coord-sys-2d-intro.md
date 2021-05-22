@@ -19,14 +19,14 @@ src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-s
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
-Sistem koordinat kartesian 2-d, yang memiliki variabel koordinat $x$ dan $y$ [[1](#r01)], dapat digambarkan sebagai berikut
+Sistem koordinat kartesian 2-d, dengan $x$ dan $y$ merupakan variabel koordinat [[1](#r01)], dapat digambarkan sebagai berikut ini.
 
 ID | 0 | 1
 :-: | :-: | :-:
 **0** | ![](assets/img/0/01/0010-a.png) | ![](assets/img/0/01/0010-b.png)
 **1** | ![](assets/img/0/01/0010-c.png) | ![](assets/img/0/01/0010-d.png)
 
-dengan $x$ berarah mendatar (ke kiri atau ke kanan) dan $y$ berarah vertikal (ke atas atau ke bawah). Baris pertama pada gambar di atas meiliki ID 00 dan 01, sedangkan baris keduanya 10 dan 11.
+Umumnya $x$ berarah mendatar (ke kiri atau ke kanan) dan $y$ berarah vertikal (ke atas atau ke bawah). Baris pertama pada gambar di atas meiliki ID 00 dan 01, sedangkan baris keduanya 10 dan 11.
 
 Pemilihan $x$ ke kiri atau kanan bergantung dari cara pengamat melihat sistem yang ditinjau. Bayangkan seorang melempar sesuatu sehingga benda yang dilempar membentuk gerak parabola. Pengamat di samping kanan pelempar akan memilih sistem koordinat 00, sedangkan pengamat di samping kiri pelempar akan memilih sistem koordinat 01.
 
