@@ -33,14 +33,14 @@ dengan ID gambar mengikuti notasi elemen pada matriks, e.g. gambar ujung kanan a
 Selain ilustrasi dengan ID 00 - 33 di atas, masih terdapat banyak kemungkinan ilustrasi sistem koordinat kartesian 3-d yang dapat diproyeksikan ke 2-d secara perspektif [[1](#r01)].
 
 
-## butir
-[coord sys 2d intro](0010) &bull;
-[dot cross direction](0011)
-
-
-## catatan
+## refs
 1. <a name="r01"></a>Wikipedia contributors, "3D projection", [Wikipedia, The Free Encyclopedia, 8 May 2021, 23:19 UTC, oid:1022177548](https://en.wikipedia.org/w/index.php?oldid=1022177548#Overview) [20210523].
 2. <a name="r02"></a>Amy Askew-Payler (tutor), "What’s The Difference Between A Plan, Elevation And A Section?", National Design Academy, url <https://www.nda.ac.uk/blog/identify-plans-elevations-sections/> [20210523].
 3. <a name="r03"></a>-, "Question: 1. What Are The Coordinate Variables For Cartesian Coordinates? ...", [Checgg Study q34564570](https://www.chegg.com/homework-help/questions-and-answers/1-coordinate-variables-cartesian-coordinates-2-coordinate-unit-vectors-cartesian-coordinat-q34564570) [20210522].
 4. <a name="r04"></a>-, "	
 Basics of Coordinate Metrology, Unit 3: Coordinate Systems in Space", E-Learning System AUKOM Stage 1, AUCOM, Sep 2009, url <https://www.aukom.info/fileadmin/Webdata/el/english/elearning/03/raum.htm>  [20210522].
+
+
+## &nbsp;
+[coord sys 2d intro](0010) &bull;
+[dot cross direction](0011)
