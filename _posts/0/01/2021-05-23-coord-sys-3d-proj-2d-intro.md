@@ -13,13 +13,13 @@ oo: false
 svgphys: false
 category: math
 tags: ["coordinate system", "3d", "projection", "2d", "introduction"]
-date: 2021-05-23 01:09:00 +07
+date: 2021-05-23 01:14:00 +07
 permalink: /0012
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-23-coord-sys-3d-proj-2d-intro.md
 twitter_username: 6unpnp
 nodes: ['0000', '0010', '0011']
 ---
-Proyeksi sistem koordinat 3-d ke sistem koordinat 2-d pada sistem koordinat kartesian akan diperkenalkan di sini [[1](r01)], dengan dua istilah penerapannya pada denah (plan) dan tampak (elevation) [[2](r02)]
+Proyeksi orthografik sistem koordinat 3-d ke sistem koordinat 2-d pada sistem koordinat kartesian akan disinggung secara ringkas di sini [[1](r01)], dengan dua istilah penerapannya pada denah (plan) dan tampak (elevation) [[2](r02)]
 
 
 ## butir
