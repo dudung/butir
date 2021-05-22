@@ -30,4 +30,4 @@ Item (interconnected terms explanation machine) is designed to enhance interconn
 
 {% comment %}
 #:~:text=
-{$ endcomment %}
+{% endcomment %}
