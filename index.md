@@ -25,7 +25,6 @@ SimpleJekyllSearch({
 })
 </script>
 
-
 {% comment %}
 <!--
 20201122
