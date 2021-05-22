@@ -19,15 +19,16 @@ src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-23-coord-s
 twitter_username: 6unpnp
 nodes: ['0000', '0010', '0011']
 ---
-Proyeksi ortografik sistem koordinat 3-d ke sistem koordinat 2-d pada sistem koordinat kartesian akan diilustrasikan secara ringkas di sini [[1](r01)], dengan dua istilah penerapannya terdapat pada denah (plan) dan tampak (elevation) [[2](r02)]. Pada sistem koordinat kartesian 3-d terdapat tiga variabel koordinat, yaitu $x$, $y$, dan $z$ [[3](r03)], yang hubungan arah antar ketiganya diberikan oleh aturan tangan kanan [[4](r04)]. Beberapa proyeksi ortografik 3-d ke 2-d adalah sebagai berikut ini.
+Proyeksi ortografik sistem koordinat 3-d ke sistem koordinat 2-d pada sistem koordinat kartesian akan diilustrasikan secara ringkas di sini [[1](r01)], dengan dua istilah penerapannya terdapat pada denah (plan) dan tampak (elevation) [[2](r02)]. Pada sistem koordinat kartesian 3-d terdapat tiga variabel koordinat, yaitu $x$, $y$, dan $z$ [[3](r03)], yang hubungan arah antar ketiganya diberikan oleh aturan tangan kanan [[4](r04)]. Beberapa proyeksi ortografik 3-d ke 2-d adalah sebagai berikut ini,
 
 ID | 0 | 1 | 2 | 3
 :-: | :-: | :-: | :-: | :-: 
 **0** | ![](assets/img/0/01/0012-a.png) | ![](assets/img/0/01/0012-b.png) | ![](assets/img/0/01/0012-c.png) | ![](assets/img/0/01/0012-d.png)
-**1** | ![](assets/img/0/01/0012-a.png) | ![](assets/img/0/01/0012-b.png) | ![](assets/img/0/01/0012-c.png) | ![](assets/img/0/01/0012-d.png)
-**2** | ![](assets/img/0/01/0012-a.png) | ![](assets/img/0/01/0012-b.png) | ![](assets/img/0/01/0012-c.png) | ![](assets/img/0/01/0012-d.png)
-**3** | ![](assets/img/0/01/0012-a.png) | ![](assets/img/0/01/0012-b.png) | ![](assets/img/0/01/0012-c.png) | ![](assets/img/0/01/0012-d.png)
+**1** | ![](assets/img/0/01/0012-e.png) | ![](assets/img/0/01/0012-f.png) | ![](assets/img/0/01/0012-g.png) | ![](assets/img/0/01/0012-h.png)
+**2** | ![](assets/img/0/01/0012-i.png) | ![](assets/img/0/01/0012-j.png) | ![](assets/img/0/01/0012-k.png) | ![](assets/img/0/01/0012-l.png)
+**3** | ![](assets/img/0/01/0012-m.png) | ![](assets/img/0/01/0012-n.png) | ![](assets/img/0/01/0012-o.png) | ![](assets/img/0/01/0012-p.png)
 
+dengan ID gambar mengikuti notasi elemen pada matriks, e.g. gambar ujung kanan atas memiliki ID 03.
 
 
 ## butir
