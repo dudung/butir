@@ -13,9 +13,9 @@ oo: true
 svgphys: true
 category: item
 tags: ["introduction", "log"]
-date: 2021-05-22 17:48:00 +07
+date: 2021-05-22 18:25:00 +07
 permalink: /0000
-src: https://github.com/dudung/item/commits/main/_posts/0/00/2021-05-12-introduction.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/00/2021-05-12-introduction.md
 twitter_username: 6unpnp
 nodes: ['0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014']
 ---

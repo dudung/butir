@@ -15,7 +15,7 @@ category: math
 tags: ["coordinate system", "2d", "introduction"]
 date: 2021-05-13 19:19:00 +07
 permalink: /0010
-src: https://github.com/dudung/item/commits/main/_posts/0/01/2021-05-13-coord-sys-2d-intro.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-sys-2d-intro.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
