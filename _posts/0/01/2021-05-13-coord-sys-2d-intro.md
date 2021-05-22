@@ -19,13 +19,19 @@ src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-s
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
-Dengan $x$ dan $y$ merupakan variabel koordinat sistem koordinat kartesian 2-d [[1](#r01)], sumbuk koordinatnya dapat digambarkan sebagai berikut
+Sistem koordinat kartesian 2-d, yang memiliki variabel koordinat $x$ dan $y$ [[1](#r01)], dapat digambarkan sebagai berikut
 
-![](assets/img/0/01/0010-a.png) | ![](assets/img/0/01/0010-b.png)
-![](assets/img/0/01/0010-c.png) | ![](assets/img/0/01/0010-d.png)
+ID | 0 | 1
+:-: | :-: | :-:
+**0** | ![](assets/img/0/01/0010-a.png) | ![](assets/img/0/01/0010-b.png)
+**1** | ![](assets/img/0/01/0010-c.png) | ![](assets/img/0/01/0010-d.png)
 
-dengan $x$ berarah mendatar (ke kiri atau ke kanan) dan $y$ berarah vertikal (ke atas atau ke bawah).
+dengan $x$ berarah mendatar (ke kiri atau ke kanan) dan $y$ berarah vertikal (ke atas atau ke bawah). Baris pertama pada gambar di atas meiliki ID 00 dan 01, sedangkan baris keduanya 10 dan 11.
+
+Pemilihan $x$ ke kiri atau kanan bergantung dari cara pengamat melihat sistem yang ditinjau. Bayangkan seorang melempar sesuatu sehingga benda yang dilempar membentuk gerak parabola. Pengamat di samping kanan pelempar akan memilih sistem koordinat 00, sedangkan pengamat di samping kiri pelempar akan memilih sistem koordinat 01.
+
+Untuk arah $y$ pemilhan ke atas atau ke bawah dapat bergantung dari gerak arah benda atau referensi awal. Saat melempar benda ke atas sebaiknya arah $y$ dipilih ke atas, akan tetapi bila menjatuhkan benda arah $y$ dapat dipilih ke bawah.
 
 
-## rujukan
+## catatan
 1. <a name="r01"></a>-, "Question: 1. What Are The Coordinate Variables For Cartesian Coordinates? ...", [Checgg Study q34564570](https://www.chegg.com/homework-help/questions-and-answers/1-coordinate-variables-cartesian-coordinates-2-coordinate-unit-vectors-cartesian-coordinat-q34564570) [20210522].
