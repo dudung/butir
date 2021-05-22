@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: butir
 authors: [viridi, ramadhan, dini]
 title: introduction
 pid: '0000'

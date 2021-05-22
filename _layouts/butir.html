@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{% include ptext.html %}
+{% include mathjax.html %}
+{% include chartjs.html %}
+{% include x3dom.html %}
+{% include threejs.html %}
+{% include 3dmol.html %}
+{% include oo.html %}
+{% include svgphys.html %}
+
+{% include nodes.html %}
+
+<h1 class="post-title">{{ page.title }}</h1>
+
+{% capture tweet_url %}
+https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&screen_name={{ page.twitter_username }}&hashtags=item_{{ page.pid }} {{ page.title | append: ": " }}
+{% endcapture %}
+
+{% capture tweet_msg %}
+&text=
+{% endcapture %}
+
+{% assign authors = "" %}
+{% for a in page.authors %}
+	{% assign author = site.authors | where: "short_name", a | first %}
+{% assign namelink = "<a href='" | append: site.baseurl | append: author.url | append: "'>" | append: author.short_name | append: "</a>" %}
+
+{% assign authors = authors | append: " &bull; " | append: namelink %}
+{% endfor %}
+
+<div class="date-author-history-comment">
+{{ page.date | date_to_string }}
+{% assign author = site.author | where: 'short_name', page.authors | first %}
+{% if authors %} {{ authors }} {% endif %} 
+| <a href="{{ page.src }}" title="See article history">History</a> |
+<a id='comment' href="{{ tweet_url }}" name="{{ tweet_msg }}" rel="nofollow" target="_blank" title="Give comment on Twitter">Comment</a>
+</div>
+
+<script>
+function rnd(){return Math.round(65535*Math.random()).toString(16)};
+var a = document.getElementById("comment");
+a.name = a.name + "[" + rnd() + "]";
+a.href = a.href + a.name;
+</script>
+
+{{ content }}
