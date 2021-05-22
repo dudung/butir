@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: math
 tags: ["coordinate system", "2d", "introduction"]
-date: 2021-05-22 18:28:00 +07
+date: 2021-05-22 19:31:00 +07
 permalink: /0010
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-sys-2d-intro.md
 twitter_username: 6unpnp
