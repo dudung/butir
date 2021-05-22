@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: math
 tags: ["coordinate system", "2d", "introduction"]
-date: 2021-05-22 19:31:00 +07
+date: 2021-05-22 22:37:00 +07
 permalink: /0010
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-sys-2d-intro.md
 twitter_username: 6unpnp
@@ -31,6 +31,11 @@ Umumnya $x$ berarah mendatar (ke kiri atau ke kanan) dan $y$ berarah vertikal (k
 Pemilihan $x$ ke kiri atau kanan bergantung dari cara pengamat melihat sistem yang ditinjau. Bayangkan seorang melempar sesuatu sehingga benda yang dilempar membentuk gerak parabola. Pengamat di samping kanan pelempar akan memilih sistem koordinat 00, sedangkan pengamat di samping kiri pelempar akan memilih sistem koordinat 01.
 
 Untuk arah $y$ pemilhan ke atas atau ke bawah dapat bergantung dari gerak arah benda atau referensi awal. Saat melempar benda ke atas sebaiknya arah $y$ dipilih ke atas, akan tetapi bila menjatuhkan benda arah $y$ dapat dipilih ke bawah.
+
+
+## butir
++ [dot cross direction](0011)
++ [coord sys 3d intro](0012)
 
 
 ## catatan
