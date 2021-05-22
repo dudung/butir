@@ -27,3 +27,7 @@ Item (interconnected terms explanation machine) is designed to enhance interconn
 `12 Apr 2021` | Create this first post, use [Liquid ](https://shopify.github.io/liquid/) for showing multiple authors (in cite as and after date) $\color{#0c0}\checkmark$, fix something (force update only works for updated file) $\color{#0c0}\checkmark$, add items for mapping (manually in grid 2&times;2) $\color{#0c0}\checkmark$, fix mapped link with CSS (hidden by h1) $\color{#0c0}\checkmark$.
 `01 Sya 1442` | Modify [Twitter](https://twitter.com/) link $\color{#0c0}\checkmark$, for all authors $\large\color{#c00}\times$.
 `22 Apr 2021` | Rename it to [butir(5)](https://dudung.github.io/butir/) from previous name on eleven days before today and hope it will remain stable :smiley:. Todo: fix history link for the first three posts $\color{#0c0}\checkmark$.
+
+{% comment %}
+#:~:text=
+{$ endcomment %}
