@@ -13,13 +13,13 @@ oo: false
 svgphys: false
 category: math
 tags: ["coordinate system", "3d", "2d", "introduction"]
-date: 2021-05-22 00:21:00 +07
+date: 2021-05-23 00:26:00 +07
 permalink: /0011
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-22-dot-cross-direction.md
 twitter_username: 6unpnp
 nodes: ['0000', '0010', '0012']
 ---
-Sebuah vektor, yang diilustrasikan dengan anak panah <c style="font-size: 2em; top: 0.2em; position: relative;">&#x27b3;</c>, digambarkan dengan dot $\bigodot$ saat keluar dari suatu bidang 2-d dan cross $\bigotimes$ saat masuk ke bidang tersebut. Bidang 2-d yang dimaksud dapat berupa bidang layar atau bidang gambar atau bidang kertas.
+Sebuah vektor, yang diilustrasikan dengan anak panah <c style="font-size: 2em; top: 0.2em; position: relative;">&#x27b3;</c>, digambarkan dengan dot $\bigodot$ saat keluar dari suatu bidang 2-d dan cross $\bigotimes$ saat masuk ke bidang tersebut [[1](#r01)]. Bidang 2-d yang dimaksud dapat berupa bidang layar atau bidang gambar atau bidang kertas.
 
 
 ## butir
