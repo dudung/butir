@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: math
 tags: ["coordinate system", "3d", "2d", "introduction"]
-date: 2021-05-23 00:40:00 +07
+date: 2021-05-23 00:59:00 +07
 permalink: /0011
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-22-dot-cross-direction.md
 twitter_username: 6unpnp
@@ -30,4 +30,4 @@ Kedua simbol $\bigodot$ dan $\bigotimes$ umum digunakan pada sumbu koordinat, ar
 
 
 ## catatan
-1. <a name="r01"></a>Wikipedia contributors, "Euclidean vector", [Wikipedia, The Free Encyclopedia, 15 May 2021, 06:42 UTC, oid:1023234748](https://en.wikipedia.org/w/index.php?oldid=1023234748#Representations} [20210522].
+1. <a name="r01"></a>Wikipedia contributors, "Euclidean vector", [Wikipedia, The Free Encyclopedia, 15 May 2021, 06:42 UTC, oid:1023234748](https://en.wikipedia.org/w/index.php?oldid=1023234748#Representations) [20210522].
