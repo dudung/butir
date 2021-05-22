@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 # fisika
-It a project about soal -- <i>learning physics by solving problems</i> (id)
+It a project about butir -- <i>granular physics</i> (id)
 
 ### Contributor
 <ul>

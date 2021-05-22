@@ -1,9 +1,9 @@
 ---
 layout: default
-title: item
+title: butir
 ---
 
-# item
+# butir
 
 <!-- Html Elements for Search -->
 <div id="search-container">
