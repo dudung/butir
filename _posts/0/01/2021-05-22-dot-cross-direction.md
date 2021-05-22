@@ -13,9 +13,9 @@ oo: false
 svgphys: false
 category: math
 tags: ["coordinate system", "3d", "2d", "introduction"]
-date: 2021-05-22 22:37:00 +07
+date: 2021-05-22 23:47:00 +07
 permalink: /0011
-src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-sys-2d-intro.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-22-dot-cross-direction.md
 twitter_username: 6unpnp
 nodes: ['0000', '0010', '0012']
 ---
