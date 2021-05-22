@@ -26,7 +26,7 @@ The resources frequently used in the item are as follow
 + [Encyclopedia Britannica](https://www.britannica.com/science/physics-science)
 + [Wikipedia](https://en.wikipedia.org/wiki/Portal:Physics)
 + [Khan Academy](https://www.khanacademy.org/science/physics)
-+ [Cyperphysics](https://www.cyberphysics.co.uk/)
++ [Cyberphysics](https://www.cyberphysics.co.uk/)
 + [Wolfram\|Alpha](https://www.wolframalpha.com/examples/science-and-technology/physics/)
 + [Physics StackExchange](https://physics.stackexchange.com/)
 
