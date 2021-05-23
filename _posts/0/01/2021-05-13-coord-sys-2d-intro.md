@@ -17,7 +17,7 @@ date: 2021-05-22 22:37:00 +07
 permalink: /0010
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2021-05-13-coord-sys-2d-intro.md
 twitter_username: 6unpnp
-nodes: ['0000', '0011', '0012']
+nodes: ['0000', '0011', '0012', '0013']
 ---
 Sistem koordinat kartesian 2-d, dengan $x$ dan $y$ merupakan variabel koordinat [[1](#r01)], dapat digambarkan sebagai berikut ini.
 
@@ -39,4 +39,5 @@ Untuk arah $y$ pemilhan ke atas atau ke bawah dapat bergantung dari gerak arah b
 
 ## &nbsp;
 [dot cross direction](0011) &bull;
-[coord sys 3d proj 2d intro](0012)
+[coord sys 3d proj 2d intro](0012) &bull;
+[vector 2d intro](0013)
