@@ -17,7 +17,7 @@ date: 2020-09-21 08:25:00 +0700
 permalink: /0013
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2020-09-01-vector-2d-intro.md
 twitter_username: 6unpnp
-nodes: ['0000', '0010']
+nodes: ['0000', '0010', '0014']
 
 ---
 A physics quantity of type vector must be specified with a magnitude and a direction [[1](#r01)], or vector is simply a quantity that has both magnitude and direction [[2](#r02)], where the magnitude is sometimes also referred to as size or length [[3](#r03)]. Further reading will explain vector as element of vector space [[4](#r04), [5](#r05)]. Here we will require only the simple definition of a vector. Vector can be drawn using a directed line segment [[6](#r06)]. Two examples about vector, which differs it from scalar, are displacement compared to distance and velocity compared to speed [[7](#r07)].
