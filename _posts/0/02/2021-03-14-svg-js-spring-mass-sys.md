@@ -11,9 +11,9 @@ threejs: false
 3dmol: false
 oo: false
 svgphys: false
-category: math
+category: code
 tags: ["svg", "html", "js", "button", "click"]
-date: 2021-03-14 18:42:00 +07
+date: 2021-03-14 18:42:00 +0700
 permalink: /0021
 src: https://github.com/dudung/butir/commits/main/_posts/0/02/2021-03-14-svg-js-spring-mass-sys.md
 twitter_username: 6unpnp
