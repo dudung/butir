@@ -229,4 +229,5 @@ text 520 220 o
 
 
 ## &nbsp;
-[coord sys 2d intro](0010)
+[coord sys 2d intro](0010) &bull;
+[vector 2d add](0014)
