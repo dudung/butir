@@ -2,7 +2,7 @@
 layout: butir
 authors: [viridi]
 title: svg js spring mass sys
-pid: '0021'
+pid: '0022'
 mathjax: false
 chartjs: false
 ptext: false
@@ -14,10 +14,10 @@ svgphys: false
 category: code
 tags: ["svg", "html", "js", "button", "click"]
 date: 2021-03-14 18:42:00 +0700
-permalink: /0021
+permalink: /0022
 src: https://github.com/dudung/butir/commits/main/_posts/0/02/2021-03-14-svg-js-spring-mass-sys.md
 twitter_username: 6unpnp
-nodes: ['0000', '0020']
+nodes: ['0000', '0020', '0021']
 ---
 Suatu bentuk didefinisikan dengan elemen SVG `<defs>` sebagaimana diberikan oleh code snippet berikut.
 
@@ -215,5 +215,5 @@ Penulisan elemen `<button>` yang tepat untuk contoh yang diberikan pada saat awa
 
 
 ## &nbsp;
-[svg js event](0020) &bull;
-[svg as lib](0022)
+[svg as lib](0020) &bull;
+[svg js event](0021)

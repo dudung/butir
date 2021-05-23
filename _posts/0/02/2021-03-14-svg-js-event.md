@@ -2,7 +2,7 @@
 layout: butir
 authors: [viridi]
 title: svg js event
-pid: '0020'
+pid: '0021'
 mathjax: false
 chartjs: false
 ptext: false
@@ -14,10 +14,10 @@ svgphys: false
 category: code
 tags: ["svg", "html", "js", "event"]
 date: 2021-03-14 10:52:00 +0700
-permalink: /0020
+permalink: /0021
 src: https://github.com/dudung/butir/commits/main/_posts/0/02/2021-03-14-svg-js-event.md
 twitter_username: 6unpnp
-nodes: ['0000', '0021', '0022']
+nodes: ['0000', '0020', '0022']
 ---
 Dengan memanfaatkan JS element SVG dalam suatu berkas HTML dapat dibuat agar berinteraksi dengan event tertentu, misalnya button click.
 
@@ -128,4 +128,5 @@ Elemen-elemen tersebut adalah
 
 
 ## &nbsp;
+[svg as a libs](0020) &bull;
 [svg js spring mass sys](0021)
