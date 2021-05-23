@@ -33,7 +33,7 @@ Pemilihan $x$ ke kiri atau kanan bergantung dari cara pengamat melihat sistem ya
 Untuk arah $y$ pemilhan ke atas atau ke bawah dapat bergantung dari gerak arah benda atau referensi awal. Saat melempar benda ke atas sebaiknya arah $y$ dipilih ke atas, akan tetapi bila menjatuhkan benda arah $y$ dapat dipilih ke bawah.
 
 
-## refs
+## notes
 1. <a name="r01"></a>-, "Question: 1. What Are The Coordinate Variables For Cartesian Coordinates? ...", [Checgg Study q34564570](https://www.chegg.com/homework-help/questions-and-answers/1-coordinate-variables-cartesian-coordinates-2-coordinate-unit-vectors-cartesian-coordinat-q34564570) [20210522].
 
 

@@ -23,7 +23,7 @@ Sebuah vektor, yang diilustrasikan dengan anak panah <c style="font-size: 2em; t
 
 Kedua simbol $\bigodot$ dan $\bigotimes$ umum digunakan pada sumbu koordinat, arus listrik, medan listrik, dan medan magnetik.
 
-## refs
+## notes
 1. <a name="r01"></a>Wikipedia contributors, "Euclidean vector", [Wikipedia, The Free Encyclopedia, 15 May 2021, 06:42 UTC, oid:1023234748](https://en.wikipedia.org/w/index.php?oldid=1023234748#Representations) [20210522].
 
 
