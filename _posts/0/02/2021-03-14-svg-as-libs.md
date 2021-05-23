@@ -15,7 +15,7 @@ category: code
 tags: ["svg", "html", "js", "button", "click"]
 date: 2021-03-14 20:24:00 +0700
 permalink: /0020
-src: https://github.com/dudung/butir/commits/main/_posts/0/02/2021-03-14-svg-as-lib.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/02/2021-03-14-svg-as-libs.md
 twitter_username: 6unpnp
 nodes: ['0000', '0021', '0022']
 ---
