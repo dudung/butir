@@ -13,7 +13,7 @@ oo: true
 svgphys: false
 category: math
 tags: ["vector", "2d", "introduction"]
-date: 2021-05-23 08:33:00 +07
+date: 2020-09-21 08:25:00 +0700
 permalink: /0013
 src: https://github.com/dudung/butir/commits/main/_posts/0/01/2020-09-01-vector-2d-intro.md
 twitter_username: 6unpnp
