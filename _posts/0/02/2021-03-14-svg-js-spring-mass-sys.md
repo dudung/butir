@@ -1,7 +1,7 @@
 ---
 layout: butir
 authors: [viridi]
-title: "svg js spring mass sys"
+title: svg js spring mass sys
 pid: '0021'
 mathjax: false
 chartjs: false
@@ -212,3 +212,8 @@ Penulisan elemen `<button>` yang tepat untuk contoh yang diberikan pada saat awa
 
 <!--use xlink:href="#h-spring" x="10" y="28" class="black-outline" transform="translate(10) scale(0.5, 1) translate(-10)" /-->
 {% endcomment %}
+
+
+## &nbsp;
+[svg js event](0020) &bull;
+[svg as lib](0022)
