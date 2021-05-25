@@ -9,8 +9,17 @@
 	2053 Create class of Course and test it for FMIPA.
 	2057 Check length and split results with \t separator.
 	2113 Create all TPB courses and add to courses array.
+	20210526
+	0352 Continue with class of Semester.
+	0414 Find problem with class of Faculty while adding Semester.
+	0428 Finish Semester and Faculty JS classes.
+	0437 Add FMIPA and SITH-S to faculties.
+	0606 Finish all faculties and create getFaculty().from() function.
+	0623 Finish getCourse().from() and strFaculty() functions.
 */
 
+
+// Define classes and function
 class Course {
 	constructor(code, name, credit) {
 		this.code = code;
@@ -19,8 +28,6 @@ class Course {
 	}
 };
 
-var courses = []
-
 function createCourse(info) {
 	var s = info.split("\t");
 	if(info.length > 0 && s.length > 1) {
@@ -28,6 +35,53 @@ function createCourse(info) {
 		courses.push(c);
 	}
 }
+
+class Semester {
+	constructor(term, courses) {
+		this.term = term;
+		this.courses = [];
+		if(arguments.length > 1) {
+			this.courses = courses.split(" ");
+		}
+	}
+	
+	addCourse(course) {
+		this.courses.push(course);
+	}
+};
+
+class Faculty {
+	constructor(name) {
+		this.name = name;
+		this.semesters = [];
+	}
+	
+	addSemester(term, courses) {
+		var s = new Semester(term, courses);
+		this.semesters.push(s);
+	}
+};
+
+function getFaculty(name) {
+	var o = {
+		from(faculties) {
+			var f;
+			N = faculties.length;
+			for(var i = 0; i < N; i++) {
+				if(name == faculties[i].name) {
+					f = faculties[i];
+					break;
+				}
+			}
+			return f;
+		}
+	}
+	return o;
+}
+
+
+// Create courses
+var courses = []
 
 createCourse("MA1101	Matematika IA	4");
 createCourse("MA1102	Matematika IB	3")
@@ -86,5 +140,116 @@ createCourse("MB1201	Statistika Bisnis	3")
 createCourse("MB1212	Kajian Tatanan Masyarakat	4")
 createCourse("MB1203	Kepemimpinan dan Praktek Manajemen	3")
 
-createCourse("")
 
+// Create faculties
+var faculties = [];
+
+var f = new Faculty("FMIPA");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1160 KU1102");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1202 KU1024");
+faculties.push(f);
+
+var f = new Faculty("SITH-S");
+f.addSemester(1, "MA1102 FI1102 KI1101 KU1011 BI1101 KU1102");
+f.addSemester(2, "MA1202 FI1202 KI1201 KU1001 BI1201 KU1202 KU1024");
+faculties.push(f);
+
+var f = new Faculty("SITH-R");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1001 KU1102 KU1024");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1011 BI1201 KU1202");
+faculties.push(f);
+
+var f = new Faculty("SF");
+f.addSemester(1, "MA1102 FI1102 KI1101 KU1011 FA1101 FA1102 KU1102");
+f.addSemester(2, "MA1202 FI1202 KI1201 KU1001 FA1241 KU1202 KU1024");
+faculties.push(f);
+
+var f = new Faculty("FTTM");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1164 KU1102 KU1024");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1011 KU1001 KU1202");
+faculties.push(f);
+
+var f = new Faculty("FITB");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1102 KU1163");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1202 KU1024");
+faculties.push(f);
+
+var f = new Faculty("FTI");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
+faculties.push(f);
+
+var f = new Faculty("FTI");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
+faculties.push(f);
+
+var f = new Faculty("STEI");
+f.addSemester(1, "MA1101 FI1101 KU1001 KU1102 KU1011 KU1024");
+f.addSemester(2, "MA1201 FI1201 IF1210 KU1202 KI1002 EL1200");
+faculties.push(f);
+
+var f = new Faculty("FTMD");
+f.addSemester(1, "MA1101 FI1102 KI1002 KU1001 KU1102 MS1100");
+f.addSemester(2, "FI1202 KU1202 MS1200 MS1210 MA1204 KU1024 KU1011");
+faculties.push(f);
+
+var f = new Faculty("FTSL");
+f.addSemester(1, "MA1101 FI1101 KI1101 KU1102 KU1024 KU1166");
+f.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1011 KU1202");
+faculties.push(f);
+
+var f = new Faculty("FTSL");
+f.addSemester(1, "MA1101 FI1102 KI1002 AR1101 KU1102");
+f.addSemester(2, "MA1201 FI1202 KU1001 PL1202 KU1202 KU1024 KU1011");
+faculties.push(f);
+
+var f = new Faculty("FSRD");
+f.addSemester(1, "SR1101 SR1102 SR1103 SR1104 KU1001 KU1102 KU1024");
+f.addSemester(2, "SR1201 SR1202 SR1203 SR1204 KU1011 KU1202");
+faculties.push(f);
+
+var f = new Faculty("SBM");
+f.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
+f.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
+faculties.push(f);
+
+
+function getCourse(code) {
+	var o = {
+		from(courses) {
+			var N = courses.length;
+			var c;
+			for(var i = 0; i < N; i++) {
+				if(code == courses[i].code) {
+					c = courses[i];
+					break;
+				}	
+			}
+			return c;
+		}
+	}
+	return o;
+}
+
+function strFaculty(faculty) {
+	var sem = faculty.semesters;
+	var str = "";
+	str += faculty.name + "\n";
+	for(var i = 0; i < sem.length; i++) {
+		str += "Semester " + sem[i].term + "\n";
+		var cou = sem[i].courses;
+		console.log(cou.length);
+		for(var j = 0; j < cou.length; j++) {
+			var c = getCourse(cou[j]).from(courses);
+			str += c.code + "\t";
+			str += c.name + "\t";
+			str += c.credit + "\n";
+		}
+	}
+	return str;
+}
+
+var f = getFaculty("FTMD").from(faculties);
+var fs = strFaculty(f)
+console.log(fs);
