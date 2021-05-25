@@ -15,7 +15,8 @@
 	0428 Finish Semester and Faculty JS classes.
 	0437 Add FMIPA and SITH-S to faculties.
 	0606 Finish all faculties and create getFaculty().from() function.
-	0623 Finish getCourse().from() and strFaculty() functions.
+	0623 Finish getCourse().from() and strFaculty0() functions.
+	0628 Create getSemester().from() and have not yet test it.
 */
 
 
@@ -36,6 +37,23 @@ function createCourse(info) {
 	}
 }
 
+function getCourse(code) {
+	var o = {
+		from(courses) {
+			var N = courses.length;
+			var c;
+			for(var i = 0; i < N; i++) {
+				if(code == courses[i].code) {
+					c = courses[i];
+					break;
+				}	
+			}
+			return c;
+		}
+	}
+	return o;
+}
+
 class Semester {
 	constructor(term, courses) {
 		this.term = term;
@@ -49,6 +67,23 @@ class Semester {
 		this.courses.push(course);
 	}
 };
+
+function getSemester(term) {
+	var o = {
+		from(semesters) {
+			var s;
+			N = semesters.length;
+			for(var i = 0; i < N; i++) {
+				if(term == semester[i].term) {
+					s = semesters[i];
+					break;
+				}
+			}
+			return s;
+		}
+	}
+	return o;
+}
 
 class Faculty {
 	constructor(name) {
@@ -77,6 +112,24 @@ function getFaculty(name) {
 		}
 	}
 	return o;
+}
+
+function strFaculty0(faculty) {
+	var sem = faculty.semesters;
+	var str = "";
+	str += faculty.name + "\n";
+	for(var i = 0; i < sem.length; i++) {
+		str += "Semester " + sem[i].term + "\n";
+		var cou = sem[i].courses;
+		console.log(cou.length);
+		for(var j = 0; j < cou.length; j++) {
+			var c = getCourse(cou[j]).from(courses);
+			str += c.code + "\t";
+			str += c.name + "\t";
+			str += c.credit + "\n";
+		}
+	}
+	return str;
 }
 
 
@@ -215,41 +268,6 @@ f.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
 faculties.push(f);
 
 
-function getCourse(code) {
-	var o = {
-		from(courses) {
-			var N = courses.length;
-			var c;
-			for(var i = 0; i < N; i++) {
-				if(code == courses[i].code) {
-					c = courses[i];
-					break;
-				}	
-			}
-			return c;
-		}
-	}
-	return o;
-}
-
-function strFaculty(faculty) {
-	var sem = faculty.semesters;
-	var str = "";
-	str += faculty.name + "\n";
-	for(var i = 0; i < sem.length; i++) {
-		str += "Semester " + sem[i].term + "\n";
-		var cou = sem[i].courses;
-		console.log(cou.length);
-		for(var j = 0; j < cou.length; j++) {
-			var c = getCourse(cou[j]).from(courses);
-			str += c.code + "\t";
-			str += c.name + "\t";
-			str += c.credit + "\n";
-		}
-	}
-	return str;
-}
-
 var f = getFaculty("FTMD").from(faculties);
-var fs = strFaculty(f)
+var fs = strFaculty0(f)
 console.log(fs);
