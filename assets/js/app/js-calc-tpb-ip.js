@@ -16,7 +16,13 @@
 	0437 Add FMIPA and SITH-S to faculties.
 	0606 Finish all faculties and create getFaculty().from() function.
 	0623 Finish getCourse().from() and strFaculty0() functions.
-	0628 Create getSemester().from() and have not yet test it.
+	0628 Create getSemester().from() and have not yet test it. Ok.
+	0639 Rename getCourse().from() to getCourseInfo().from(), cancel.
+	
+	Notes
+	1. It could be two functions of getCourse().from(), first from
+	   list of courses and second from courses in a semester of a
+		 faculty [20210526.0646].
 */
 
 
@@ -74,7 +80,7 @@ function getSemester(term) {
 			var s;
 			N = semesters.length;
 			for(var i = 0; i < N; i++) {
-				if(term == semester[i].term) {
+				if(term == semesters[i].term) {
 					s = semesters[i];
 					break;
 				}
