@@ -21,6 +21,7 @@ nodes: ['0000']
 ---
 Kalkulator sederhana untuk menghitung IP TPB ITB kurikulum 2019 dapat dibuat menggunakan JS.
 
-<script>
+<script src="/assets/js/app/js-calc-tpb-ip.js"></script>
 
+<script>
 </script>
