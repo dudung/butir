@@ -19,4 +19,8 @@ src: https://github.com/dudung/butir/commits/main/_posts/0/03/2021-05-25-js-calc
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
-..
+Kalkulator sederhana untuk menghitung IP TPB ITB kurikulum 2019 dapat dibuat menggunakan JS.
+
+<script>
+
+</script>
