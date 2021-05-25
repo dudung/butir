@@ -127,7 +127,6 @@ function strFaculty0(faculty) {
 	for(var i = 0; i < sem.length; i++) {
 		str += "Semester " + sem[i].term + "\n";
 		var cou = sem[i].courses;
-		console.log(cou.length);
 		for(var j = 0; j < cou.length; j++) {
 			var c = getCourse(cou[j]).from(courses);
 			str += c.code + "\t";
@@ -138,6 +137,11 @@ function strFaculty0(faculty) {
 	return str;
 }
 
+
+function totalCredit(semester) {
+	var credit = 0;
+	return credit;
+}
 
 // Create courses
 var courses = []
@@ -273,7 +277,6 @@ f.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
 f.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
 faculties.push(f);
 
-
-var f = getFaculty("FTMD").from(faculties);
+var f = getFaculty("FMIPA").from(faculties);
 var fs = strFaculty0(f)
 console.log(fs);
