@@ -382,6 +382,5 @@ faculty.addEventListener("change", function() {
 		dsum.innerHTML = c.semesters[i].getCredit();
 		dsum.style.textAlign = "right";
 		dvc.append(dsum);
-	}
-	
+	}	
 });
