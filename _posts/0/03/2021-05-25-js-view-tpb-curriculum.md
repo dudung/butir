@@ -2,7 +2,7 @@
 layout: butir
 authors: [viridi]
 title: js calc tpb ip 1
-pid: '0020'
+pid: '0030'
 mathjax: false
 chartjs: false
 ptext: false
@@ -13,9 +13,9 @@ oo: false
 svgphys: true
 category: code
 tags: ["js", "html", "calc", "tpb", "ip"]
-date: 2021-05-26 16:15:00 +0700
+date: 2021-05-26 16:20:00 +0700
 permalink: /0030
-src: https://github.com/dudung/butir/commits/main/_posts/0/03/2021-05-25-js-calc-tpb-ip-1.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/03/2021-05-25-js-view-tpb-curriculum.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---

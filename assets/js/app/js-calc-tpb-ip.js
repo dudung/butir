@@ -288,7 +288,7 @@ c.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
 c.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
 curriculums.push(c);
 
-var c = getCurriculum("FMIPA").from(curriculums);
+var c = getCurriculum("SBM").from(curriculums);
 var cs = strCurriculum0(c)
 
 
@@ -298,7 +298,7 @@ with(div.style) {
 	padding = "2px";
 	border = "1px #000 solid";
 	background = "#eee";
-	height = "102px";
+	height = "200px";
 	padding = "6px";
 }
 
@@ -314,7 +314,7 @@ with(divL.style) {
 	border = "1px #f00 solid";
 	background = "#fee";
 	width = "49%";
-	height = "50px";
+	height = "156px";
 	float = "left";
 }
 
@@ -323,7 +323,7 @@ with(divR.style) {
 	border = "1px #00f solid";
 	background = "#eef";
 	width = "49%";
-	height = "50px";
+	height = "156px";
 	float = "right";
 }
 
@@ -331,13 +331,12 @@ divT.innerHTML = c.name;
 divL.innerHTML = "Semester " + c.semesters[0].term;
 divR.innerHTML = "Semester " + c.semesters[1].term;
 
-console.log(c.semesters.length);
-for(var i = 0; i < 2; i++) {
+for(var i = 0; i < c.semesters.length; i++) {
 	for(var j = 0; j < c.semesters[i].courses.length; j++) {
 		var code = c.semesters[i].courses[j];
 		var dv = document.createElement("div");
 		dv.innerHTML = code;
-		dvc = (i = 0) ? divL : divR;
+		dvc = (i == 0) ? divL : divR;
 		dvc.append(dv);
 	}
 }
