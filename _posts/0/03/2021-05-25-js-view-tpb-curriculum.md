@@ -170,6 +170,8 @@ function strCurriculum0(curriculum) {
 
 untuk menggakan kelas-kelas di sebelumnya. Beberapa fungsi dapat dintegrasikan ke dalam kelas terkait, yang mungkin akan dilakukan dalam versi berikutnya. Penggunaan larik global, e.g. `courses`, `curriculums` juga akan ditinjau ulang.
 
+Kode lengkap dapat diperoleh [[2](#r02)] dan dapat dimodifikasi.
+
 
 ## notes
 1. <a name="r01"></a>-, "Sistem Informasi Akademik", Institut Teknologi Bandung, url <https://akademik.itb.ac.id/> [20210527].
