@@ -181,4 +181,4 @@ dalam suatu berkas HTML setelah berkas JS `js-view-tpb-curriculum.js` tersebut d
 
 ## notes
 1. <a name="r01"></a>-, "Sistem Informasi Akademik", Institut Teknologi Bandung, url <https://akademik.itb.ac.id/> [20210527].
-2. <a name="r01"></a>S. Viridi, "js-view-tpb-curriculum.js", butir, url <https://dudung.github.io/butir/assets/js/app/js-view-tpb-curriculum.js> [20210527].
+2. <a name="r01"></a>Sparisoma Viridi, "js-view-tpb-curriculum.js", butir, url <https://dudung.github.io/butir/assets/js/app/js-view-tpb-curriculum.js> [20210527].
