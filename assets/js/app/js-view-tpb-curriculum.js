@@ -290,7 +290,7 @@ c.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
 c.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
 curriculums.push(c);
 
-var c = getCurriculum("SBM").from(curriculums);
+var c = getCurriculum("FMIPA").from(curriculums);
 var cs = strCurriculum0(c)
 
 
@@ -298,38 +298,47 @@ var cs = strCurriculum0(c)
 var div = document.createElement("div");
 with(div.style) {
 	padding = "2px";
-	border = "1px #000 solid";
+	//border = "1px #000 solid";
 	background = "#eee";
-	height = "200px";
+	//height = "200px";
 	padding = "6px";
 }
 
 var divT = document.createElement("div");
 with(divT.style) {
-	border = "1px #0f0 solid";
+	//border = "1px #0f0 solid";
 	background = "#efe";
 	height = "25px";
 }
 
 var divL = document.createElement("div");
 with(divL.style) {
-	border = "1px #f00 solid";
+	//border = "1px #f00 solid";
 	background = "#fee";
-	width = "49%";
-	height = "156px";
-	float = "left";
+	//width = "49%";
+	//height = "156px";
+	//float = "left";
 }
 
 var divR = document.createElement("div");
 with(divR.style) {
-	border = "1px #00f solid";
+	//border = "1px #00f solid";
 	background = "#eef";
-	width = "49%";
-	height = "156px";
-	float = "right";
+	//width = "49%";
+	//height = "156px";
+	//float = "right";
 }
 
-divT.innerHTML = c.name;
+var faculty = document.createElement("select");
+faculty.style.width = "100px";
+
+for(var i = 0; i < curriculums.length; i++) {
+	var option = document.createElement("option");
+	option.text = curriculums[i].name;
+	faculty.add(option);
+}
+
+divT.append(faculty);
 divL.innerHTML = "Semester " + c.semesters[0].term;
 divR.innerHTML = "Semester " + c.semesters[1].term;
 
@@ -340,24 +349,37 @@ for(var i = 0; i < c.semesters.length; i++) {
 		var course = getCourse(code).from(courses);
 		
 		var dv = document.createElement("div");
-		dv.style.border = "1px black solid";
+		//dv.style.border = "1px black solid";
 		dvc = (i == 0) ? divL : divR;
 		dvc.append(dv);
 		
 		var d1 = document.createElement("div");
-		d1.style.border = "1px black solid";
+		//d1.style.border = "1px black solid";
 		d1.style.display = "inline-block";
-		d1.style.width = "60px";
+		d1.style.width = "70px";
 		d1.style.verticalAlign = "top";
 		d1.innerHTML = course.code;
 		dv.append(d1);
 		
 		var d2 = document.createElement("div");
-		d2.style.border = "1px black solid";
+		//d2.style.border = "1px black solid";
 		d2.style.display = "inline-block";
-		d2.style.width = "150px";
+		d2.style.width = "350px";
 		d2.innerHTML = course.name;
 		dv.append(d2);
+		
+		var d3 = document.createElement("div");
+		//d3.style.border = "1px black solid";
+		d3.style.display = "inline-block";
+		d3.style.width = "50px";
+		d3.innerHTML = course.credit;
+		dv.append(d3);
+		
+		/*
+		var d4 = document.createElement("select");
+		d4.style.width = "60px";
+		dv.append(d4);
+		*/
 	}
 }
 
