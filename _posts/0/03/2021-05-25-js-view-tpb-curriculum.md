@@ -13,7 +13,7 @@ oo: false
 svgphys: true
 category: code
 tags: ["js", "html", "calc", "tpb", "ip"]
-date: 2021-05-27 04:13:00 +0700
+date: 2021-05-27 05:27:00 +0700
 permalink: /0030
 src: https://github.com/dudung/butir/commits/main/_posts/0/03/2021-05-25-js-view-tpb-curriculum.md
 twitter_username: 6unpnp
