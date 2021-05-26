@@ -173,3 +173,4 @@ untuk menggakan kelas-kelas di sebelumnya. Beberapa fungsi dapat dintegrasikan k
 
 ## notes
 1. <a name="r01"></a>-, "Sistem Informasi Akademik", Institut Teknologi Bandung, url https://akademik.itb.ac.id/ [20210527].
+2. <a name="r01"></a>S. Viridi, "js-view-tpb-curriculum.js", butir, url [20210527].
