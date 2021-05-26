@@ -29,6 +29,7 @@
 	20210527
 	0349 Try to show number of credit for each semester.
 	0528 Finish for this version.
+	0534 Remove double FTI and FTSL.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -260,11 +261,6 @@ c.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
 c.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
 curriculums.push(c);
 
-var c = new Curriculum("FTI");
-c.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
-c.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
-curriculums.push(c);
-
 var c = new Curriculum("STEI");
 c.addSemester(1, "MA1101 FI1101 KU1001 KU1102 KU1011 KU1024");
 c.addSemester(2, "MA1201 FI1201 IF1210 KU1202 KI1002 EL1200");
@@ -278,11 +274,6 @@ curriculums.push(c);
 var c = new Curriculum("FTSL");
 c.addSemester(1, "MA1101 FI1101 KI1101 KU1102 KU1024 KU1166");
 c.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1011 KU1202");
-curriculums.push(c);
-
-var c = new Curriculum("FTSL");
-c.addSemester(1, "MA1101 FI1102 KI1002 AR1101 KU1102");
-c.addSemester(2, "MA1201 FI1202 KU1001 PL1202 KU1202 KU1024 KU1011");
 curriculums.push(c);
 
 var c = new Curriculum("FSRD");
