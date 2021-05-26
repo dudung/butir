@@ -19,7 +19,7 @@ src: https://github.com/dudung/butir/commits/main/_posts/0/03/2021-05-25-js-view
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
-Penampil sederhana untuk menyajikan matakuliah TPB ITB dalam kurikulum 2019, yang dapat dibuat menggunakan JS.
+Penampil sederhana untuk menyajikan matakuliah TPB ITB dalam kurikulum 2019 [[1](#r01)], yang dapat dibuat menggunakan JS.
 
 <script src="/assets/js/app/js-view-tpb-curriculum.js"></script>
 
@@ -28,6 +28,8 @@ Penampil sederhana untuk menyajikan matakuliah TPB ITB dalam kurikulum 2019, yan
 
 Kode, nama, dan jumlah SKS tiap matakuliah dapat diperoleh dengan mengubah pilihan F/S.
 
+
+## codes
 Terdapat beberapa kelas yang digunakan untuk membuat tampilan di atas, yaitu kelas Course
 
 ```javascript
@@ -166,4 +168,8 @@ function strCurriculum0(curriculum) {
 }
 ```
 
-untuk menggakan kelas-kelas di sebelumnya.
+untuk menggakan kelas-kelas di sebelumnya. Beberapa fungsi dapat dintegrasikan ke dalam kelas terkait, yang mungkin akan dilakukan dalam versi berikutnya. Penggunaan larik global, e.g. `courses`, `curriculums` juga akan ditinjau ulang.
+
+
+## notes
+1. <a name="r01"></a>-, "Sistem Informasi Akademik", Institut Teknologi Bandung, url https://akademik.itb.ac.id/ [20210527].
