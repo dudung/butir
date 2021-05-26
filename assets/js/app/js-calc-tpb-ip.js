@@ -18,6 +18,8 @@
 	0623 Finish getCourse().from() and strFaculty0() functions.
 	0628 Create getSemester().from() and have not yet test it. Ok.
 	0639 Rename getCourse().from() to getCourseInfo().from(), cancel.
+	1158 Change Faculty to Curriculum, more appropriate.
+	1231 Create getCredit for Semester.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -67,10 +69,22 @@ class Semester {
 		if(arguments.length > 1) {
 			this.courses = courses.split(" ");
 		}
+		this.credit = 0;
 	}
 	
 	addCourse(course) {
 		this.courses.push(course);
+	}
+	
+	getCredit() {
+		var N = this.courses.length;
+		var cre = 0;
+		for(var i = 0; i < N; i++) {
+			var c = getCourse(this.courses[i]).from(courses).credit;
+			cre += c;
+		}
+		this.credit = cre;
+		return this.credit;
 	}
 };
 
@@ -137,11 +151,6 @@ function strCurriculum0(curriculum) {
 	return str;
 }
 
-
-function totalCredit(semester) {
-	var credit = 0;
-	return credit;
-}
 
 // Create courses
 var courses = []
