@@ -26,6 +26,8 @@
 	2036 Continue setting layout.
 	2104 Finish first appearence of curriculum for 14 faculties.
 	2120 Clean style as paragraph texts.
+	20210527
+	0349 Try to show number of credit for each semester.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -323,15 +325,16 @@ faculty.addEventListener("change", function() {
 
 	divL.innerHTML = "Semester " + c.semesters[0].term;
 	divR.innerHTML = "Semester " + c.semesters[1].term;
-
+	
 	for(var i = 0; i < c.semesters.length; i++) {
+	dvc = (i == 0) ? divL : divR;
+		
 		for(var j = 0; j < c.semesters[i].courses.length; j++) {
 			var code = c.semesters[i].courses[j];
 			
 			var course = getCourse(code).from(courses);
 			
 			var dv = document.createElement("div");
-			dvc = (i == 0) ? divL : divR;
 			dvc.append(dv);
 			
 			var d1 = document.createElement("div");
@@ -351,7 +354,32 @@ faculty.addEventListener("change", function() {
 			d3.style.display = "inline-block";
 			d3.style.width = "50px";
 			d3.innerHTML = course.credit;
+			d3.style.textAlign = "right";
 			dv.append(d3);
 		}
+		
+		var d1 = document.createElement("div");
+		d1.style.display = "inline-block";
+		d1.style.width = "70px";
+		d1.style.verticalAlign = "top";
+		dvc.append(d1);
+		
+		var d2 = document.createElement("div");
+		d2.style.display = "inline-block";
+		d2.style.width = "350px";
+		d2.innerHTML = "Total";
+		dvc.append(d2);
+		
+		var d3 = document.createElement("div");
+		d3.style.display = "inline-block";
+		d3.style.width = "50px";
+		
+		var dsum = document.createElement("div");
+		dsum.style.display = "inline-block";
+		dsum.style.width = "50px";
+		dsum.innerHTML = c.semesters[i].getCredit();
+		dsum.style.textAlign = "right";
+		dvc.append(dsum);
 	}
+	
 });
