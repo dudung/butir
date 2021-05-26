@@ -341,6 +341,7 @@ faculty.addEventListener("change", function() {
 			d1.style.display = "inline-block";
 			d1.style.width = "70px";
 			d1.style.verticalAlign = "top";
+			d1.style.fontFamily = "Monospace";
 			d1.innerHTML = course.code;
 			dv.append(d1);
 			
