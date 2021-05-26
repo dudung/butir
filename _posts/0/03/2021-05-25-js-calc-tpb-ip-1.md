@@ -25,3 +25,5 @@ Kalkulator sederhana untuk menghitung IP TPB ITB kurikulum 2019 dapat dibuat men
 
 <script>
 </script>
+
+Demikianlah.

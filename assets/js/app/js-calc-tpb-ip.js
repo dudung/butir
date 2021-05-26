@@ -20,6 +20,7 @@
 	0639 Rename getCourse().from() to getCourseInfo().from(), cancel.
 	1158 Change Faculty to Curriculum, more appropriate.
 	1231 Create getCredit for Semester.
+	1253 Create div0, divL, divR for visual layout.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -289,3 +290,37 @@ curriculums.push(c);
 var c = getCurriculum("FMIPA").from(curriculums);
 var cs = strCurriculum0(c)
 console.log(cs);
+
+
+// Create layout
+var div0 = document.createElement("div");
+with(div0.style) {
+	padding = "2px";
+	border = "1px #000 solid";
+	background = "#eee";
+	height = "52px";
+}
+
+var divL = document.createElement("div");
+with(divL.style) {
+	border = "1px #f00 solid";
+	background = "#fee";
+	width = "49%";
+	height = "50px";
+	float = "left";
+}
+
+var divR = document.createElement("div");
+with(divR.style) {
+	border = "1px #00f solid";
+	background = "#eef";
+	width = "49%";
+	height = "50px";
+	float = "right";
+}
+
+
+
+document.body.append(div0);
+div0.append(divL);
+div0.append(divR);
