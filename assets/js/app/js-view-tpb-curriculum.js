@@ -23,6 +23,7 @@
 	1253 Create div0, divL, divR for visual layout.
 	1610 Face error while creating visual layout with div.
 	1624 Rename it from js-calc-tpb-ip to js-view-tpb-curriculum.
+	2036 Continue setting layout.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -335,10 +336,28 @@ divR.innerHTML = "Semester " + c.semesters[1].term;
 for(var i = 0; i < c.semesters.length; i++) {
 	for(var j = 0; j < c.semesters[i].courses.length; j++) {
 		var code = c.semesters[i].courses[j];
+		
+		var course = getCourse(code).from(courses);
+		
 		var dv = document.createElement("div");
-		dv.innerHTML = code;
+		dv.style.border = "1px black solid";
 		dvc = (i == 0) ? divL : divR;
 		dvc.append(dv);
+		
+		var d1 = document.createElement("div");
+		d1.style.border = "1px black solid";
+		d1.style.display = "inline-block";
+		d1.style.width = "60px";
+		d1.style.verticalAlign = "top";
+		d1.innerHTML = course.code;
+		dv.append(d1);
+		
+		var d2 = document.createElement("div");
+		d2.style.border = "1px black solid";
+		d2.style.display = "inline-block";
+		d2.style.width = "150px";
+		d2.innerHTML = course.name;
+		dv.append(d2);
 	}
 }
 
