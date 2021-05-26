@@ -1,6 +1,6 @@
 /*
-	js-calc-tpb-ip.js
-	Simple calculator for IP TPB ITB with 2019 curriculum
+	js-view-tpb-curriculum.js
+	View TPB ITB 2019 curriculum
 	
 	Sparisoma Viridi | https://github.com/dudung
 	
@@ -22,6 +22,7 @@
 	1231 Create getCredit for Semester.
 	1253 Create div0, divL, divR for visual layout.
 	1610 Face error while creating visual layout with div.
+	1624 Rename it from js-calc-tpb-ip to js-view-tpb-curriculum.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from

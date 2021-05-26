@@ -1,7 +1,7 @@
 ---
 layout: butir
 authors: [viridi]
-title: js calc tpb ip 1
+title: js view tpb curriculum
 pid: '0030'
 mathjax: false
 chartjs: false
@@ -21,7 +21,7 @@ nodes: ['0000']
 ---
 Kalkulator sederhana untuk menghitung IP TPB ITB kurikulum 2019 dapat dibuat menggunakan JS.
 
-<script src="/assets/js/app/js-calc-tpb-ip.js"></script>
+<script src="/assets/js/app/js-view-tpb-curriculum.js"></script>
 
 <script>
 </script>
