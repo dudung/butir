@@ -21,7 +21,7 @@ nodes: ['0000']
 ---
 Penampil sederhana untuk menyajikan matakuliah TPB ITB dalam kurikulum 2019 [[1](#r01)], yang dapat dibuat menggunakan JS.
 
-<script src="/assets/js/app/js-view-tpb-curriculum.js"></script>
+<script src="assets/js/app/js-view-tpb-curriculum.js"></script>
 
 <script>
 </script>
