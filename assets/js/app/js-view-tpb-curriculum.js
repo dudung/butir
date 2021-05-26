@@ -28,6 +28,7 @@
 	2120 Clean style as paragraph texts.
 	20210527
 	0349 Try to show number of credit for each semester.
+	0528 Finish for this version.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
