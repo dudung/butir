@@ -170,13 +170,13 @@ function strCurriculum0(curriculum) {
 
 untuk menggakan kelas-kelas di sebelumnya. Beberapa fungsi dapat dintegrasikan ke dalam kelas terkait, yang mungkin akan dilakukan dalam versi berikutnya. Penggunaan larik global, e.g. `courses`, `curriculums` juga akan ditinjau ulang.
 
-Kode lengkap dapat diperoleh [[2](#r02)] dan dapat dimodifikasi. Digunakan dengan cara meletakkan
+Kode lengkap dapat diperoleh [[2](#r02)] dan dapat dimodifikasi. Digunakan dengan cara meletakkan baris berikut
 
 ```html
 <script src="js-view-tpb-curriculum.js"></script>
 ```
 
-pada suatu berkas HTML setelah berkas JS tersebut disimpan pada link tertentu agar dapat dipanggil seperti potongan kode di atas.
+dalam suatu berkas HTML setelah berkas JS `js-view-tpb-curriculum.js` tersebut disimpan pada link tertentu agar dapat dipanggil seperti potongan kode di atas.
 
 
 ## notes
