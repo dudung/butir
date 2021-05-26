@@ -317,16 +317,19 @@ with(divR.style) {
 }
 
 var faculty = document.createElement("select");
-faculty.style.width = "100px";
+faculty.style.width = "70px";
 
 for(var i = 0; i < curriculums.length; i++) {
 	var option = document.createElement("option");
 	option.text = curriculums[i].name;
 	faculty.add(option);
 }
+faculty.selectedIndex = -1;
+faculty.title = "Select faculty";
 
 document.body.append(div);
 div.append(divT);
+	divT.innerHTML = "F/S ";
 	divT.append(faculty);
 div.append(divL);
 div.append(divR);
