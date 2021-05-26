@@ -91,7 +91,7 @@ function getSemester(term) {
 	return o;
 }
 
-class Faculty {
+class Curriculum {
 	constructor(name) {
 		this.name = name;
 		this.semesters = [];
@@ -103,7 +103,7 @@ class Faculty {
 	}
 };
 
-function getFaculty(name) {
+function getCurriculum(name) {
 	var o = {
 		from(faculties) {
 			var f;
@@ -120,10 +120,10 @@ function getFaculty(name) {
 	return o;
 }
 
-function strFaculty0(faculty) {
-	var sem = faculty.semesters;
+function strCurriculum0(curriculum) {
+	var sem = curriculum.semesters;
 	var str = "";
-	str += faculty.name + "\n";
+	str += curriculum.name + "\n";
 	for(var i = 0; i < sem.length; i++) {
 		str += "Semester " + sem[i].term + "\n";
 		var cou = sem[i].courses;
@@ -204,79 +204,79 @@ createCourse("MB1212	Kajian Tatanan Masyarakat	4")
 createCourse("MB1203	Kepemimpinan dan Praktek Manajemen	3")
 
 
-// Create faculties
-var faculties = [];
+// Create curriculums
+var curriculums = [];
 
-var f = new Faculty("FMIPA");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1160 KU1102");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1202 KU1024");
-faculties.push(f);
+var c = new Curriculum("FMIPA");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1160 KU1102");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1202 KU1024");
+curriculums.push(c);
 
-var f = new Faculty("SITH-S");
-f.addSemester(1, "MA1102 FI1102 KI1101 KU1011 BI1101 KU1102");
-f.addSemester(2, "MA1202 FI1202 KI1201 KU1001 BI1201 KU1202 KU1024");
-faculties.push(f);
+var c = new Curriculum("SITH-S");
+c.addSemester(1, "MA1102 FI1102 KI1101 KU1011 BI1101 KU1102");
+c.addSemester(2, "MA1202 FI1202 KI1201 KU1001 BI1201 KU1202 KU1024");
+curriculums.push(c);
 
-var f = new Faculty("SITH-R");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1001 KU1102 KU1024");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1011 BI1201 KU1202");
-faculties.push(f);
+var c = new Curriculum("SITH-R");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1001 KU1102 KU1024");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1011 BI1201 KU1202");
+curriculums.push(c);
 
-var f = new Faculty("SF");
-f.addSemester(1, "MA1102 FI1102 KI1101 KU1011 FA1101 FA1102 KU1102");
-f.addSemester(2, "MA1202 FI1202 KI1201 KU1001 FA1241 KU1202 KU1024");
-faculties.push(f);
+var c = new Curriculum("SF");
+c.addSemester(1, "MA1102 FI1102 KI1101 KU1011 FA1101 FA1102 KU1102");
+c.addSemester(2, "MA1202 FI1202 KI1201 KU1001 FA1241 KU1202 KU1024");
+curriculums.push(c);
 
-var f = new Faculty("FTTM");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1164 KU1102 KU1024");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1011 KU1001 KU1202");
-faculties.push(f);
+var c = new Curriculum("FTTM");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1164 KU1102 KU1024");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1011 KU1001 KU1202");
+curriculums.push(c);
 
-var f = new Faculty("FITB");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1102 KU1163");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1202 KU1024");
-faculties.push(f);
+var c = new Curriculum("FITB");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1102 KU1163");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1202 KU1024");
+curriculums.push(c);
 
-var f = new Faculty("FTI");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
-faculties.push(f);
+var c = new Curriculum("FTI");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
+curriculums.push(c);
 
-var f = new Faculty("FTI");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
-faculties.push(f);
+var c = new Curriculum("FTI");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1011 KU1001 KU1102");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1202 KU1267 KU1024");
+curriculums.push(c);
 
-var f = new Faculty("STEI");
-f.addSemester(1, "MA1101 FI1101 KU1001 KU1102 KU1011 KU1024");
-f.addSemester(2, "MA1201 FI1201 IF1210 KU1202 KI1002 EL1200");
-faculties.push(f);
+var c = new Curriculum("STEI");
+c.addSemester(1, "MA1101 FI1101 KU1001 KU1102 KU1011 KU1024");
+c.addSemester(2, "MA1201 FI1201 IF1210 KU1202 KI1002 EL1200");
+curriculums.push(c);
 
-var f = new Faculty("FTMD");
-f.addSemester(1, "MA1101 FI1102 KI1002 KU1001 KU1102 MS1100");
-f.addSemester(2, "FI1202 KU1202 MS1200 MS1210 MA1204 KU1024 KU1011");
-faculties.push(f);
+var c = new Curriculum("FTMD");
+c.addSemester(1, "MA1101 FI1102 KI1002 KU1001 KU1102 MS1100");
+c.addSemester(2, "FI1202 KU1202 MS1200 MS1210 MA1204 KU1024 KU1011");
+curriculums.push(c);
 
-var f = new Faculty("FTSL");
-f.addSemester(1, "MA1101 FI1101 KI1101 KU1102 KU1024 KU1166");
-f.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1011 KU1202");
-faculties.push(f);
+var c = new Curriculum("FTSL");
+c.addSemester(1, "MA1101 FI1101 KI1101 KU1102 KU1024 KU1166");
+c.addSemester(2, "MA1201 FI1201 KI1201 KU1001 KU1011 KU1202");
+curriculums.push(c);
 
-var f = new Faculty("FTSL");
-f.addSemester(1, "MA1101 FI1102 KI1002 AR1101 KU1102");
-f.addSemester(2, "MA1201 FI1202 KU1001 PL1202 KU1202 KU1024 KU1011");
-faculties.push(f);
+var c = new Curriculum("FTSL");
+c.addSemester(1, "MA1101 FI1102 KI1002 AR1101 KU1102");
+c.addSemester(2, "MA1201 FI1202 KU1001 PL1202 KU1202 KU1024 KU1011");
+curriculums.push(c);
 
-var f = new Faculty("FSRD");
-f.addSemester(1, "SR1101 SR1102 SR1103 SR1104 KU1001 KU1102 KU1024");
-f.addSemester(2, "SR1201 SR1202 SR1203 SR1204 KU1011 KU1202");
-faculties.push(f);
+var c = new Curriculum("FSRD");
+c.addSemester(1, "SR1101 SR1102 SR1103 SR1104 KU1001 KU1102 KU1024");
+c.addSemester(2, "SR1201 SR1202 SR1203 SR1204 KU1011 KU1202");
+curriculums.push(c);
 
-var f = new Faculty("SBM");
-f.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
-f.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
-faculties.push(f);
+var c = new Curriculum("SBM");
+c.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
+c.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
+curriculums.push(c);
 
-var f = getFaculty("FMIPA").from(faculties);
-var fs = strFaculty0(f)
-console.log(fs);
+var c = getCurriculum("FMIPA").from(curriculums);
+var cs = strCurriculum0(c)
+console.log(cs);
