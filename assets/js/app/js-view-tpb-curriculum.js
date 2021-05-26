@@ -24,6 +24,7 @@
 	1610 Face error while creating visual layout with div.
 	1624 Rename it from js-calc-tpb-ip to js-view-tpb-curriculum.
 	2036 Continue setting layout.
+	2104 Finish first appearence of curriculum for 14 faculties.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -290,43 +291,29 @@ c.addSemester(1, "MA1103 KU1001 KU1102 KU1024 MB1101 MB1102");
 c.addSemester(2, "MA1203 KU1202 KU1011 MB1201 MB1212 MB1203");
 curriculums.push(c);
 
-var c = getCurriculum("FMIPA").from(curriculums);
-var cs = strCurriculum0(c)
-
 
 // Create layout
 var div = document.createElement("div");
 with(div.style) {
 	padding = "2px";
-	//border = "1px #000 solid";
 	background = "#eee";
-	//height = "200px";
 	padding = "6px";
 }
 
 var divT = document.createElement("div");
 with(divT.style) {
-	//border = "1px #0f0 solid";
 	background = "#efe";
 	height = "25px";
 }
 
 var divL = document.createElement("div");
 with(divL.style) {
-	//border = "1px #f00 solid";
 	background = "#fee";
-	//width = "49%";
-	//height = "156px";
-	//float = "left";
 }
 
 var divR = document.createElement("div");
 with(divR.style) {
-	//border = "1px #00f solid";
 	background = "#eef";
-	//width = "49%";
-	//height = "156px";
-	//float = "right";
 }
 
 var faculty = document.createElement("select");
@@ -338,53 +325,47 @@ for(var i = 0; i < curriculums.length; i++) {
 	faculty.add(option);
 }
 
-divT.append(faculty);
-divL.innerHTML = "Semester " + c.semesters[0].term;
-divR.innerHTML = "Semester " + c.semesters[1].term;
-
-for(var i = 0; i < c.semesters.length; i++) {
-	for(var j = 0; j < c.semesters[i].courses.length; j++) {
-		var code = c.semesters[i].courses[j];
-		
-		var course = getCourse(code).from(courses);
-		
-		var dv = document.createElement("div");
-		//dv.style.border = "1px black solid";
-		dvc = (i == 0) ? divL : divR;
-		dvc.append(dv);
-		
-		var d1 = document.createElement("div");
-		//d1.style.border = "1px black solid";
-		d1.style.display = "inline-block";
-		d1.style.width = "70px";
-		d1.style.verticalAlign = "top";
-		d1.innerHTML = course.code;
-		dv.append(d1);
-		
-		var d2 = document.createElement("div");
-		//d2.style.border = "1px black solid";
-		d2.style.display = "inline-block";
-		d2.style.width = "350px";
-		d2.innerHTML = course.name;
-		dv.append(d2);
-		
-		var d3 = document.createElement("div");
-		//d3.style.border = "1px black solid";
-		d3.style.display = "inline-block";
-		d3.style.width = "50px";
-		d3.innerHTML = course.credit;
-		dv.append(d3);
-		
-		/*
-		var d4 = document.createElement("select");
-		d4.style.width = "60px";
-		dv.append(d4);
-		*/
-	}
-}
-
 document.body.append(div);
 div.append(divT);
+	divT.append(faculty);
 div.append(divL);
 div.append(divR);
 
+faculty.addEventListener("change", function() {
+	var c = getCurriculum(faculty.value).from(curriculums);
+	var cs = strCurriculum0(c)
+
+	divL.innerHTML = "Semester " + c.semesters[0].term;
+	divR.innerHTML = "Semester " + c.semesters[1].term;
+
+	for(var i = 0; i < c.semesters.length; i++) {
+		for(var j = 0; j < c.semesters[i].courses.length; j++) {
+			var code = c.semesters[i].courses[j];
+			
+			var course = getCourse(code).from(courses);
+			
+			var dv = document.createElement("div");
+			dvc = (i == 0) ? divL : divR;
+			dvc.append(dv);
+			
+			var d1 = document.createElement("div");
+			d1.style.display = "inline-block";
+			d1.style.width = "70px";
+			d1.style.verticalAlign = "top";
+			d1.innerHTML = course.code;
+			dv.append(d1);
+			
+			var d2 = document.createElement("div");
+			d2.style.display = "inline-block";
+			d2.style.width = "350px";
+			d2.innerHTML = course.name;
+			dv.append(d2);
+			
+			var d3 = document.createElement("div");
+			d3.style.display = "inline-block";
+			d3.style.width = "50px";
+			d3.innerHTML = course.credit;
+			dv.append(d3);
+		}
+	}
+});
