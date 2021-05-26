@@ -21,6 +21,7 @@
 	1158 Change Faculty to Curriculum, more appropriate.
 	1231 Create getCredit for Semester.
 	1253 Create div0, divL, divR for visual layout.
+	1610 Face error while creating visual layout with div.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -289,16 +290,23 @@ curriculums.push(c);
 
 var c = getCurriculum("FMIPA").from(curriculums);
 var cs = strCurriculum0(c)
-console.log(cs);
 
 
 // Create layout
-var div0 = document.createElement("div");
-with(div0.style) {
+var div = document.createElement("div");
+with(div.style) {
 	padding = "2px";
 	border = "1px #000 solid";
 	background = "#eee";
-	height = "52px";
+	height = "102px";
+	padding = "6px";
+}
+
+var divT = document.createElement("div");
+with(divT.style) {
+	border = "1px #0f0 solid";
+	background = "#efe";
+	height = "25px";
 }
 
 var divL = document.createElement("div");
@@ -319,8 +327,23 @@ with(divR.style) {
 	float = "right";
 }
 
+divT.innerHTML = c.name;
+divL.innerHTML = "Semester " + c.semesters[0].term;
+divR.innerHTML = "Semester " + c.semesters[1].term;
 
+console.log(c.semesters.length);
+for(var i = 0; i < 2; i++) {
+	for(var j = 0; j < c.semesters[i].courses.length; j++) {
+		var code = c.semesters[i].courses[j];
+		var dv = document.createElement("div");
+		dv.innerHTML = code;
+		dvc = (i = 0) ? divL : divR;
+		dvc.append(dv);
+	}
+}
 
-document.body.append(div0);
-div0.append(divL);
-div0.append(divR);
+document.body.append(div);
+div.append(divT);
+div.append(divL);
+div.append(divR);
+
