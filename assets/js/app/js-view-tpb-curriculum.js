@@ -25,6 +25,7 @@
 	1624 Rename it from js-calc-tpb-ip to js-view-tpb-curriculum.
 	2036 Continue setting layout.
 	2104 Finish first appearence of curriculum for 14 faculties.
+	2120 Clean style as paragraph texts.
 	
 	Notes
 	1. It could be two functions of getCourse().from(), first from
@@ -294,27 +295,9 @@ curriculums.push(c);
 
 // Create layout
 var div = document.createElement("div");
-with(div.style) {
-	padding = "2px";
-	background = "#eee";
-	padding = "6px";
-}
-
 var divT = document.createElement("div");
-with(divT.style) {
-	background = "#efe";
-	height = "25px";
-}
-
 var divL = document.createElement("div");
-with(divL.style) {
-	background = "#fee";
-}
-
 var divR = document.createElement("div");
-with(divR.style) {
-	background = "#eef";
-}
 
 var faculty = document.createElement("select");
 faculty.style.width = "70px";

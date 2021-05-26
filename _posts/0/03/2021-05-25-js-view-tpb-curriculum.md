@@ -13,7 +13,7 @@ oo: false
 svgphys: true
 category: code
 tags: ["js", "html", "calc", "tpb", "ip"]
-date: 2021-05-26 16:20:00 +0700
+date: 2021-05-26 21:21:00 +0700
 permalink: /0030
 src: https://github.com/dudung/butir/commits/main/_posts/0/03/2021-05-25-js-view-tpb-curriculum.md
 twitter_username: 6unpnp
@@ -26,4 +26,4 @@ Penampil sederhana untuk menyajikan matakuliah TPB ITB dalam kurikulum 2019, yan
 <script>
 </script>
 
-Demikianlah begitu.
+Kode, nama, dan jumlah SKS tiap matakuliah dapat diperoleh dengan mengubah pilihan F/S.
