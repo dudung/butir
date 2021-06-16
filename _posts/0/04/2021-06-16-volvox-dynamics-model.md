@@ -1,7 +1,7 @@
 ---
 layout: butir
-authors: [viridi, nurafni]
-title: discussion sevi nurafni
+authors: [viridi, nurafni, dini]
+title: volvox dynamics model
 pid: '0040'
 mathjax: false
 chartjs: false
@@ -13,10 +13,9 @@ oo: false
 svgphys: true
 category: code
 tags: ["discussion", "master", "s2", "machine learning", "volvox", "sevi", "nurafni"]
-date: 2021-06-16 07:32:00 +0700
+date: 2021-06-16 16:27:00 +0700
 permalink: /0040
-src: 
-https://github.com/dudung/butir/commits/main/_posts/0/04/2021-06-16-volvox-dynamics-model.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-06-16-volvox-dynamics-model.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
