@@ -13,14 +13,12 @@ oo: false
 svgphys: true
 category: code
 tags: ["discussion", "bachelor", "s1", "aquaponics", "plant", "fish", "model"]
-date: 2021-06-17 10:57:00 +0700
+date: 2021-06-17 16:29:00 +0700
 permalink: /0041
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-06-16-aquaponics-model.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
-
-[[1](#r01)], [[2](#r02)], [[3](#r03)], [[4](#r02)], [[5](#r02)]
 
 Date | Place | Notes
 :- | :- | :-
