@@ -1,0 +1,264 @@
+[20210702]
+1350
+E:\ .. (need update)
+
+
+update
+
+Restart -- not saved
+
+
+1404
+E:\butir>bundle update
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies.....
+Using concurrent-ruby 1.1.9
+Using i18n 1.8.10
+Using minitest 5.14.4
+Using tzinfo 2.0.4
+Using zeitwerk 2.4.2
+Using activesupport 6.1.4
+Using public_suffix 4.0.6
+Using addressable 2.7.0
+Using bundler 2.1.4
+Using colorator 1.1.0
+Using eventmachine 1.2.7 (x86-mingw32)
+Using http_parser.rb 0.6.0
+Using em-websocket 0.5.2
+Using faraday-em_http 1.0.0
+Using faraday-em_synchrony 1.0.0
+Using faraday-excon 1.1.0
+Using faraday-net_http 1.0.1
+Using faraday-net_http_persistent 1.1.0
+Using multipart-post 2.1.1
+Using ruby2_keywords 0.0.4
+Using faraday 1.4.3
+Using ffi 1.15.3 (x86-mingw32)
+Using forwardable-extended 2.6.0
+Using gemoji 3.0.1
+Using racc 1.5.2
+Using nokogiri 1.11.7 (x86-mingw32)
+Using html-pipeline 2.14.0
+Using sassc 2.4.0
+Using jekyll-sass-converter 2.1.0
+Using rb-fsevent 0.11.0
+Using rb-inotify 0.10.1
+Using listen 3.5.1
+Using jekyll-watch 2.2.1
+Using rexml 3.2.5
+Using kramdown 2.3.1
+Using kramdown-parser-gfm 1.1.0
+Using liquid 4.0.3
+Using mercenary 0.4.0
+Using pathutil 0.16.2
+Using rouge 3.26.0
+Using safe_yaml 1.0.5
+Using unicode-display_width 1.7.0
+Using terminal-table 2.0.0
+Using jekyll 4.2.0
+Using sawyer 0.8.2
+Using octokit 4.21.0
+Using jekyll-gist 1.5.0
+Using jemoji 0.12.0
+Using wdm 0.1.1
+Bundle updated!
+
+1407 error
+E:\butir>bundle exec jekyll serve
+Traceback (most recent call last):
+        33: from C:/Ruby26/bin/jekyll:23:in `<main>'
+        32: from C:/Ruby26/bin/jekyll:23:in `load'
+        31: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/exe/jekyll:11:in `<top (r
+equired)>'
+        30: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/lib/jekyll/plugin_manager
+.rb:53:in `require_from_bundler'
+        29: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler.rb:174:in `r
+equire'
+        28: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:5
+8:in `require'
+        27: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:5
+8:in `each'
+        26: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:6
+9:in `block in require'
+        25: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:6
+9:in `each'
+        24: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:7
+4:in `block (2 levels) in require'
+        23: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:7
+4:in `require'
+        22: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4
+:in `<top (required)>'
+        21: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4
+:in `require'
+        20: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist
+_tag.rb:5:in `<top (required)>'
+        19: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist
+_tag.rb:5:in `require'
+        18: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `<t
+op (required)>'
+        17: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `re
+quire'
+        16: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1
+:in `<top (required)>'
+        15: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1
+:in `require'
+        14: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.
+rb:1:in `<top (required)>'
+        13: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.
+rb:1:in `require'
+        12: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `<top
+ (required)>'
+        11: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `each
+'
+        10: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `bloc
+k in <top (required)>'
+         9: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `requ
+ire'
+         8: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in
+`<top (required)>'
+         7: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in
+`require'
+         6: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `<t
+op (required)>'
+         5: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `re
+quire'
+         4: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:2
+18:in `<top (required)>'
+         3: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:2
+18:in `require'
+         2: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.
+rb:3:in `<top (required)>'
+         1: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.
+rb:52:in `<module:Faraday>'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:62:in `<class:
+Env>': uninitialized constant Faraday::METHODS_WITH_BODY (NameError)
+
+1409
+E:\butir>bundle install
+Using concurrent-ruby 1.1.9
+Using i18n 1.8.10
+Using minitest 5.14.4
+Using tzinfo 2.0.4
+Using zeitwerk 2.4.2
+Using activesupport 6.1.4
+Using public_suffix 4.0.6
+Using addressable 2.7.0
+Using bundler 2.1.4
+Using colorator 1.1.0
+Using eventmachine 1.2.7 (x86-mingw32)
+Using http_parser.rb 0.6.0
+Using em-websocket 0.5.2
+Using faraday-em_http 1.0.0
+Using faraday-em_synchrony 1.0.0
+Using faraday-excon 1.1.0
+Using faraday-net_http 1.0.1
+Using faraday-net_http_persistent 1.1.0
+Using multipart-post 2.1.1
+Using ruby2_keywords 0.0.4
+Using faraday 1.4.3
+Using ffi 1.15.3 (x86-mingw32)
+Using forwardable-extended 2.6.0
+Using gemoji 3.0.1
+Using racc 1.5.2
+Using nokogiri 1.11.7 (x86-mingw32)
+Using html-pipeline 2.14.0
+Using sassc 2.4.0
+Using jekyll-sass-converter 2.1.0
+Using rb-fsevent 0.11.0
+Using rb-inotify 0.10.1
+Using listen 3.5.1
+Using jekyll-watch 2.2.1
+Using rexml 3.2.5
+Using kramdown 2.3.1
+Using kramdown-parser-gfm 1.1.0
+Using liquid 4.0.3
+Using mercenary 0.4.0
+Using pathutil 0.16.2
+Using rouge 3.26.0
+Using safe_yaml 1.0.5
+Using unicode-display_width 1.7.0
+Using terminal-table 2.0.0
+Using jekyll 4.2.0
+Using sawyer 0.8.2
+Using octokit 4.21.0
+Using jekyll-gist 1.5.0
+Using jemoji 0.12.0
+Using wdm 0.1.1
+Bundle complete! 4 Gemfile dependencies, 49 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+E:\butir>
+E:\butir>bundle exec jekyll serve
+Traceback (most recent call last):
+        33: from C:/Ruby26/bin/jekyll:23:in `<main>'
+        32: from C:/Ruby26/bin/jekyll:23:in `load'
+        31: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/exe/jekyll:11:in `<top (r
+equired)>'
+        30: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/lib/jekyll/plugin_manager
+.rb:53:in `require_from_bundler'
+        29: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler.rb:174:in `r
+equire'
+        28: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:5
+8:in `require'
+        27: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:5
+8:in `each'
+        26: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:6
+9:in `block in require'
+        25: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:6
+9:in `each'
+        24: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:7
+4:in `block (2 levels) in require'
+        23: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:7
+4:in `require'
+        22: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4
+:in `<top (required)>'
+        21: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4
+:in `require'
+        20: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist
+_tag.rb:5:in `<top (required)>'
+        19: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist
+_tag.rb:5:in `require'
+        18: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `<t
+op (required)>'
+        17: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `re
+quire'
+        16: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1
+:in `<top (required)>'
+        15: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1
+:in `require'
+        14: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.
+rb:1:in `<top (required)>'
+        13: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.
+rb:1:in `require'
+        12: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `<top
+ (required)>'
+        11: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `each
+'
+        10: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `bloc
+k in <top (required)>'
+         9: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `requ
+ire'
+         8: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in
+`<top (required)>'
+         7: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in
+`require'
+         6: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `<t
+op (required)>'
+         5: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `re
+quire'
+         4: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:2
+18:in `<top (required)>'
+         3: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:2
+18:in `require'
+         2: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.
+rb:3:in `<top (required)>'
+         1: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.
+rb:52:in `<module:Faraday>'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:62:in `<class:
+Env>': uninitialized constant Faraday::METHODS_WITH_BODY (NameError)
+
+E:\butir>
+
+1410
+Camera also error with MS Teams
