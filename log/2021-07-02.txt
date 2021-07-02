@@ -262,3 +262,623 @@ E:\butir>
 
 1410
 Camera also error with MS Teams
+
+
+1529 Uninstall rubyinstaller-devkit-2.6.6-1-x86.exe
+Reinstall Only Ruby not the 900 MB files MSYS2
+
+ _____       _           _____           _        _ _         ___
+|  __ \     | |         |_   _|         | |      | | |       |__ \
+| |__) |   _| |__  _   _  | |  _ __  ___| |_ __ _| | | ___ _ __ ) |
+|  _  / | | | '_ \| | | | | | | '_ \/ __| __/ _` | | |/ _ \ '__/ /
+| | \ \ |_| | |_) | |_| |_| |_| | | \__ \ || (_| | | |  __/ | / /_
+|_|  \_\__,_|_.__/ \__, |_____|_| |_|___/\__\__,_|_|_|\___|_||____|
+                    __/ |           _
+                   |___/          _|_ _  __   | | o __  _| _     _
+                                   | (_) |    |^| | | |(_|(_)\^/_>
+
+   1 - MSYS2 base installation
+   2 - MSYS2 system update (optional)
+   3 - MSYS2 and MINGW development toolchain
+
+Which components shall be installed? If unsure press ENTER [1,3] 1
+
+> sh -lc true
+bash.exe: warning: could not find /tmp, please create!
+mkdir: cannot change permissions of `/dev/shm': Permission denied
+mkdir: cannot change permissions of `/dev/mqueue': Permission denied
+MSYS2 seems to be properly installed
+
+   1 - MSYS2 base installation
+   2 - MSYS2 system update (optional)
+   3 - MSYS2 and MINGW development toolchain
+
+Which components shall be installed? If unsure press ENTER [] 3
+
+> sh -lc true
+bash.exe: warning: could not find /tmp, please create!
+MSYS2 seems to be properly installed
+Install MSYS2 and MINGW development toolchain ...
+> pacman -S --needed --noconfirm autoconf autoconf2.13 autogen automake-wrapper
+automake1.10 automake1.11 automake1.12 automake1.13 automake1.14 automake1.15 a
+tomake1.6 automake1.7 automake1.8 automake1.9 diffutils file gawk grep libtool
+4 make patch pkg-config sed texinfo texinfo-tex wget mingw-w64-i686-binutils mi
+gw-w64-i686-crt-git mingw-w64-i686-gcc mingw-w64-i686-gcc-libs mingw-w64-i686-h
+aders-git mingw-w64-i686-libmangle-git mingw-w64-i686-libwinpthread-git mingw-w
+4-i686-make mingw-w64-i686-pkg-config mingw-w64-i686-tools-git mingw-w64-i686-w
+npthreads-git
+warning: autoconf-2.69-5 is up to date -- skipping
+warning: autoconf2.13-2.13-2 is up to date -- skipping
+warning: autogen-5.18.16-1 is up to date -- skipping
+warning: automake-wrapper-11-1 is up to date -- skipping
+warning: automake1.10-1.10.3-3 is up to date -- skipping
+warning: automake1.11-1.11.6-3 is up to date -- skipping
+warning: automake1.12-1.12.6-3 is up to date -- skipping
+warning: automake1.13-1.13.4-4 is up to date -- skipping
+warning: automake1.14-1.14.1-3 is up to date -- skipping
+warning: automake1.15-1.15.1-1 is up to date -- skipping
+warning: automake1.6-1.6.3-2 is up to date -- skipping
+warning: automake1.7-1.7.9-2 is up to date -- skipping
+warning: automake1.8-1.8.5-3 is up to date -- skipping
+warning: automake1.9-1.9.6-2 is up to date -- skipping
+warning: diffutils-3.7-1 is up to date -- skipping
+warning: file-5.38-2 is up to date -- skipping
+warning: gawk-5.0.1-1 is up to date -- skipping
+warning: grep-3.0-2 is up to date -- skipping
+warning: libtool-2.4.6-9 is up to date -- skipping
+warning: m4-1.4.18-2 is up to date -- skipping
+warning: make-4.3-1 is up to date -- skipping
+warning: patch-2.7.6-1 is up to date -- skipping
+warning: pkg-config-0.29.2-1 is up to date -- skipping
+warning: sed-4.8-1 is up to date -- skipping
+warning: texinfo-6.6-1 is up to date -- skipping
+warning: texinfo-tex-6.6-1 is up to date -- skipping
+warning: wget-1.20.3-1 is up to date -- skipping
+warning: mingw-w64-i686-binutils-2.34-1 is up to date -- skipping
+warning: mingw-w64-i686-crt-git-8.0.0.5685.ef310786-1 is up to date -- skipping
+warning: mingw-w64-i686-gcc-9.3.0-1 is up to date -- skipping
+warning: mingw-w64-i686-gcc-libs-9.3.0-1 is up to date -- skipping
+warning: mingw-w64-i686-headers-git-8.0.0.5685.ef310786-1 is up to date -- skip
+ing
+warning: mingw-w64-i686-libmangle-git-8.0.0.5573.a4de8df4-1 is up to date -- sk
+pping
+warning: mingw-w64-i686-libwinpthread-git-8.0.0.5680.0df6b89f-1 is up to date -
+ skipping
+warning: mingw-w64-i686-make-4.3-1 is up to date -- skipping
+warning: mingw-w64-i686-pkg-config-0.29.2-1 is up to date -- skipping
+warning: mingw-w64-i686-tools-git-8.0.0.5573.a4de8df4-1 is up to date -- skippi
+g
+warning: mingw-w64-i686-winpthreads-git-8.0.0.5680.0df6b89f-1 is up to date --
+kipping
+ there is nothing to do
+Install MSYS2 and MINGW development toolchain succeeded
+
+   1 - MSYS2 base installation
+   2 - MSYS2 system update (optional)
+   3 - MSYS2 and MINGW development toolchain
+
+Which components shall be installed? If unsure press ENTER []
+1531
+
+1534
+E:\butir>bundle exec jekyll serve
+Traceback (most recent call last):
+        33: from C:/Ruby26/bin/jekyll:23:in `<main>'
+        32: from C:/Ruby26/bin/jekyll:23:in `load'
+        31: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/exe/jekyll:11:in `<top (required)>'
+        30: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/lib/jekyll/plugin_manager.rb:53:in `require_from_bundler'
+        29: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler.rb:174:in `require'
+        28: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:58:in `require'
+        27: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:58:in `each'
+        26: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:69:in `block in require'
+        25: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:69:in `each'
+        24: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:74:in `block (2 levels) in require'
+        23: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:74:in `require'
+        22: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4:in `<top (required)>'
+        21: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4:in `require'
+        20: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist_tag.rb:5:in `<top (required)>'
+        19: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist_tag.rb:5:in `require'
+        18: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `<top (required)>'
+        17: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `require'
+        16: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1:in `<top (required)>'
+        15: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1:in `require'
+        14: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.rb:1:in `<top (required)>'
+        13: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.rb:1:in `require'
+        12: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `<top (required)>'
+        11: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `each'
+        10: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `block in <top (required)>'
+         9: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `require'
+         8: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in `<top (required)>'
+         7: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in `require'
+         6: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `<top (required)>'
+         5: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `require'
+         4: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:218:in `<top (required)>'
+         3: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:218:in `require'
+         2: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:3:in `<top (required)>'
+         1: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:52:in `<module:Faraday>'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:62:in `<class:Env>': uninitialized constant Faraday::METHODS_WIT
+H_BODY (NameError)
+
+1534
+E:\butir>bundle install
+Using concurrent-ruby 1.1.9
+Using i18n 1.8.10
+Using minitest 5.14.4
+Using tzinfo 2.0.4
+Using zeitwerk 2.4.2
+Using activesupport 6.1.4
+Using public_suffix 4.0.6
+Using addressable 2.7.0
+Using bundler 2.1.4
+Using colorator 1.1.0
+Using eventmachine 1.2.7 (x86-mingw32)
+Using http_parser.rb 0.6.0
+Using em-websocket 0.5.2
+Using faraday-em_http 1.0.0
+Using faraday-em_synchrony 1.0.0
+Using faraday-excon 1.1.0
+Using faraday-net_http 1.0.1
+Using faraday-net_http_persistent 1.1.0
+Using multipart-post 2.1.1
+Using ruby2_keywords 0.0.4
+Using faraday 1.4.3
+Using ffi 1.15.3 (x86-mingw32)
+Using forwardable-extended 2.6.0
+Using gemoji 3.0.1
+Using racc 1.5.2
+Using nokogiri 1.11.7 (x86-mingw32)
+Using html-pipeline 2.14.0
+Using sassc 2.4.0
+Using jekyll-sass-converter 2.1.0
+Using rb-fsevent 0.11.0
+Using rb-inotify 0.10.1
+Using listen 3.5.1
+Using jekyll-watch 2.2.1
+Using rexml 3.2.5
+Using kramdown 2.3.1
+Using kramdown-parser-gfm 1.1.0
+Using liquid 4.0.3
+Using mercenary 0.4.0
+Using pathutil 0.16.2
+Using rouge 3.26.0
+Using safe_yaml 1.0.5
+Using unicode-display_width 1.7.0
+Using terminal-table 2.0.0
+Using jekyll 4.2.0
+Using sawyer 0.8.2
+Using octokit 4.21.0
+Using jekyll-gist 1.5.0
+Using jemoji 0.12.0
+Using wdm 0.1.1
+Bundle complete! 4 Gemfile dependencies, 49 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+
+E:\butir>bundle exec jekyll serve
+Traceback (most recent call last):
+        33: from C:/Ruby26/bin/jekyll:23:in `<main>'
+        32: from C:/Ruby26/bin/jekyll:23:in `load'
+        31: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/exe/jekyll:11:in `<top (required)>'
+        30: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-4.2.0/lib/jekyll/plugin_manager.rb:53:in `require_from_bundler'
+        29: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler.rb:174:in `require'
+        28: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:58:in `require'
+        27: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:58:in `each'
+        26: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:69:in `block in require'
+        25: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:69:in `each'
+        24: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:74:in `block (2 levels) in require'
+        23: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:74:in `require'
+        22: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4:in `<top (required)>'
+        21: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist.rb:4:in `require'
+        20: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist_tag.rb:5:in `<top (required)>'
+        19: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-gist-1.5.0/lib/jekyll-gist/gist_tag.rb:5:in `require'
+        18: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `<top (required)>'
+        17: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit.rb:1:in `require'
+        16: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1:in `<top (required)>'
+        15: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/client.rb:1:in `require'
+        14: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.rb:1:in `<top (required)>'
+        13: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/octokit-4.21.0/lib/octokit/connection.rb:1:in `require'
+        12: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `<top (required)>'
+        11: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `each'
+        10: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `block in <top (required)>'
+         9: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer.rb:17:in `require'
+         8: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in `<top (required)>'
+         7: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/sawyer-0.8.2/lib/sawyer/agent.rb:1:in `require'
+         6: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `<top (required)>'
+         5: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday.rb:18:in `require'
+         4: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:218:in `<top (required)>'
+         3: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options.rb:218:in `require'
+         2: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:3:in `<top (required)>'
+         1: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:52:in `<module:Faraday>'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/faraday-1.4.3/lib/faraday/options/env.rb:62:in `<class:Env>': uninitialized constant Faraday::METHODS_WITH_BODY (NameError)
+
+1536
+https://stackoverflow.com/questions/59558141/jekyll-minimal-mistakes-theme-throwing-uninitialized-constant-faradayerrorc
+
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+gem 'faraday', '0.17.3'
+
+E:\butir>bundle update
+[DEPRECATED] Your Gemfile contains multiple primary sources. Using `source` more than once without a block is a security risk, and may res
+t in installing unexpected gems. To resolve this warning, use a block to indicate which gems should come from the secondary source. To upg
+de this warning to an error, run `bundle config set disable_multisource true`.
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/.
+Resolving Resolving dependencies......................................................................................................................
+............................................................................................................................................
+............................................................................................................................................
+............................................................................................................................................
+..........
+Fetching RedCloth 4.2.9 (x86-mingw32)
+Installing RedCloth 4.2.9 (x86-mingw32)
+Using concurrent-ruby 1.1.9
+Using i18n 1.8.10
+Using minitest 5.14.4
+Using tzinfo 2.0.4
+Using zeitwerk 2.4.2
+Using activesupport 6.1.4
+Fetching addressable 2.4.0 (was 2.7.0)
+Installing addressable 2.4.0 (was 2.7.0)
+Fetching blankslate 2.1.2.4
+Installing blankslate 2.1.2.4
+Using bundler 2.1.4
+Fetching fast-stemmer 1.0.2
+Installing fast-stemmer 1.0.2 with native extensions
+Fetching classifier-reborn 2.2.0
+Installing classifier-reborn 2.2.0
+Fetching coffee-script-source 1.12.2
+Installing coffee-script-source 1.12.2
+Fetching execjs 2.8.1
+Installing execjs 2.8.1
+Fetching coffee-script 2.4.1
+Installing coffee-script 2.4.1
+Fetching colorator 0.1 (was 1.1.0)
+Installing colorator 0.1 (was 1.1.0)
+Using ffi 1.15.3 (x86-mingw32)
+Fetching ethon 0.14.0
+Installing ethon 0.14.0
+Using multipart-post 2.1.1
+Fetching faraday 0.17.3 (was 1.4.3)
+Installing faraday 0.17.3 (was 1.4.3)
+Fetching gemoji 2.1.0 (was 3.0.1)
+Installing gemoji 2.1.0 (was 3.0.1)
+Fetching net-dns 0.9.0
+Installing net-dns 0.9.0
+Fetching public_suffix 1.5.3 (was 4.0.6)
+Installing public_suffix 1.5.3 (was 4.0.6)
+Fetching typhoeus 0.8.0
+Installing typhoeus 0.8.0
+Fetching github-pages-health-check 0.6.1
+Installing github-pages-health-check 0.6.1
+Fetching jekyll-coffeescript 1.0.1
+Installing jekyll-coffeescript 1.0.1
+Using sawyer 0.8.2
+Using octokit 4.21.0
+Using jekyll-gist 1.5.0
+Fetching jekyll-paginate 1.1.0
+Installing jekyll-paginate 1.1.0
+Using rb-fsevent 0.11.0
+Using rb-inotify 0.10.1
+Fetching sass-listen 4.0.0
+Installing sass-listen 4.0.0
+Fetching sass 3.7.4
+Installing sass 3.7.4
+Fetching jekyll-sass-converter 1.3.0 (was 2.1.0)
+Installing jekyll-sass-converter 1.3.0 (was 2.1.0)
+Using listen 3.5.1
+Fetching jekyll-watch 1.5.1 (was 2.2.1)
+Installing jekyll-watch 1.5.1 (was 2.2.1)
+Fetching kramdown 1.5.0 (was 2.3.1)
+Installing kramdown 1.5.0 (was 2.3.1)
+Fetching liquid 2.6.2 (was 4.0.3)
+Installing liquid 2.6.2 (was 4.0.3)
+Fetching mercenary 0.3.6 (was 0.4.0)
+Installing mercenary 0.3.6 (was 0.4.0)
+Fetching posix-spawn 0.3.15
+Installing posix-spawn 0.3.15 with native extensions
+Fetching yajl-ruby 1.2.3
+Installing yajl-ruby 1.2.3 with native extensions
+Fetching pygments.rb 0.6.3
+Installing pygments.rb 0.6.3
+Fetching redcarpet 3.3.2
+Installing redcarpet 3.3.2 with native extensions
+Using safe_yaml 1.0.5
+Fetching parslet 1.5.0
+Installing parslet 1.5.0
+Fetching toml 0.1.2
+Installing toml 0.1.2
+Fetching jekyll 2.4.0 (was 4.2.0)
+Installing jekyll 2.4.0 (was 4.2.0)
+Fetching jekyll-feed 0.3.1
+Installing jekyll-feed 0.3.1
+Using racc 1.5.2
+Using nokogiri 1.11.7 (x86-mingw32)
+Fetching html-pipeline 1.9.0 (was 2.14.0)
+Installing html-pipeline 1.9.0 (was 2.14.0)
+Fetching jekyll-mentions 0.2.1
+Installing jekyll-mentions 0.2.1
+Fetching jekyll-redirect-from 0.8.0
+Installing jekyll-redirect-from 0.8.0
+Fetching jekyll-sitemap 0.8.1
+Installing jekyll-sitemap 0.8.1
+Fetching jemoji 0.5.0 (was 0.12.0)
+Installing jemoji 0.5.0 (was 0.12.0)
+Fetching maruku 0.7.0
+Installing maruku 0.7.0
+Fetching rdiscount 2.1.7
+Installing rdiscount 2.1.7 with native extensions
+Using unicode-display_width 1.7.0
+Using terminal-table 1.8.0 (was 2.0.0)
+Fetching github-pages 39
+Installing github-pages 39
+Using wdm 0.1.1
+Bundle updated!
+Post-install message from sass:
+
+Ruby Sass has reached end-of-life and should no longer be used.
+
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  https://sass-lang.com/blog/posts/7828841
+
+Post-install message from html-pipeline:
+-------------------------------------------------
+Thank you for installing html-pipeline!
+You must bundle Filter gem dependencies.
+See html-pipeline README.md for more details.
+https://github.com/jch/html-pipeline#dependencies
+-------------------------------------------------
+1554
+
+1556
+E:\butir>bundle exec jekyll serve
+Configuration file: E:/butir/_config.yml
+            Source: E:/butir
+       Destination: E:/butir/_site
+      Generating...
+  Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%\}/ in _includes/footer.html, included in _layouts/default.html
+jekyll 2.4.0 | Error:  Tag '{%' was not properly terminated with regexp: /\%\}/
+
+E:\butir>
+
+1559
+E:\butir>bundle exec jekyll serve
+Configuration file: E:/butir/_config.yml
+            Source: E:/butir
+       Destination: E:/butir/_site
+      Generating...
+  Liquid Exception: Unknown tag 'twitter' in index.md
+jekyll 2.4.0 | Error:  Unknown tag 'twitter'
+
+E:\butir>
+
+1602
+E:\butir>bundle exec jekyll serve
+Configuration file: E:/butir/_config.yml
+            Source: E:/butir
+       Destination: E:/butir/_site
+      Generating...
+                    done.
+ Auto-regeneration: enabled for 'E:/butir'
+Configuration file: E:/butir/_config.yml
+    Server address: http://0.0.0.0:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-07-02 16:01:08   Liquid Exception: Unknown tag 'twitter' in index.md
+...error:
+             Error: Unknown tag 'twitter'
+             Error: Run jekyll build --trace for more information.
+      Regenerating: 1 file(s) changed at 2021-07-02 16:01:20   Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%\}/ in
+ _includes/footer.html, included in _layouts/default.html
+...error:
+             Error: Tag '{%' was not properly terminated with regexp: /\%\}/
+             Error: Run jekyll build --trace for more information.
+      Regenerating: 1 file(s) changed at 2021-07-02 16:01:31   Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%\}/ in
+ _includes/footer.html, included in _layouts/default.html
+...error:
+             Error: Tag '{%' was not properly terminated with regexp: /\%\}/
+             Error: Run jekyll build --trace for more information.
+      Regenerating: 1 file(s) changed at 2021-07-02 16:01:34   Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%\}/ in
+ _includes/footer.html, included in _layouts/default.html
+...error:
+             Error: Tag '{%' was not properly terminated with regexp: /\%\}/
+             Error: Run jekyll build --trace for more information.
+Terminate batch job (Y/N)?
+^CTerminate batch job (Y/N)?
+^C
+E:\butir>bundle exec jekyll serve --trace
+Configuration file: E:/butir/_config.yml
+            Source: E:/butir
+       Destination: E:/butir/_site
+      Generating...
+  Liquid Exception: Tag '{%' was not properly terminated with regexp: /\%\}/ in _includes/footer.html, included in _layouts/default.html
+Traceback (most recent call last):
+        32: from C:/Ruby26/bin/jekyll:23:in `<main>'
+        31: from C:/Ruby26/bin/jekyll:23:in `load'
+        30: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/bin/jekyll:18:in `<top (required)>'
+        29: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+        28: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+        27: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+        26: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+        25: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+        24: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/commands/serve.rb:25:in `block (2 levels) in init_with_program'
+        23: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/commands/build.rb:33:in `process'
+        22: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/commands/build.rb:55:in `build'
+        21: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/command.rb:28:in `process_site'
+        20: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:46:in `process'
+        19: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:261:in `render'
+        18: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:261:in `each'
+        17: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:262:in `block in render'
+        16: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:262:in `each'
+        15: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:263:in `block (2 levels) in render'
+        14: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/renderer.rb:56:in `run'
+        13: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/renderer.rb:133:in `place_in_layouts'
+        12: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/renderer.rb:91:in `render_liquid'
+        11: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:138:in `render!'
+        10: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:128:in `render'
+         9: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:82:in `render'
+         8: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:96:in `render_all'
+         7: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:96:in `each'
+         6: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:109:in `block in render_all'
+         5: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/tags/include.rb:114:in `render'
+         4: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:46:in `parse'
+         3: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:59:in `parse'
+         2: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:59:in `new'
+         1: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/document.rb:5:in `initialize'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:35:in `parse': Tag '{%' was not properly terminated with regexp: /\%\}/
+ (Liquid::SyntaxError)
+        28: from C:/Ruby26/bin/jekyll:23:in `<main>'
+        27: from C:/Ruby26/bin/jekyll:23:in `load'
+        26: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/bin/jekyll:18:in `<top (required)>'
+        25: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+        24: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+        23: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+        22: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+        21: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+        20: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/commands/serve.rb:25:in `block (2 levels) in init_with_program'
+        19: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/commands/build.rb:33:in `process'
+        18: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/commands/build.rb:55:in `build'
+        17: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/command.rb:28:in `process_site'
+        16: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:46:in `process'
+        15: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:261:in `render'
+        14: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:261:in `each'
+        13: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:262:in `block in render'
+        12: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:262:in `each'
+        11: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/site.rb:263:in `block (2 levels) in render'
+        10: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/renderer.rb:56:in `run'
+         9: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/renderer.rb:133:in `place_in_layouts'
+         8: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/renderer.rb:91:in `render_liquid'
+         7: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:138:in `render!'
+         6: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/template.rb:128:in `render'
+         5: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:82:in `render'
+         4: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:96:in `render_all'
+         3: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:96:in `each'
+         2: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/liquid-2.6.2/lib/liquid/block.rb:109:in `block in render_all'
+         1: from C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/tags/include.rb:113:in `render'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/jekyll-2.4.0/lib/jekyll/tags/include.rb:121:in `rescue in render': Tag '{%' was not properly terminated w
+ith regexp: /\%\}/  (Jekyll::Tags::IncludeTagError)
+
+E:\butir>
+
+Pause at 1602 do not know.
+
+E:\butir>bundle install
+Using concurrent-ruby 1.1.9
+Using i18n 1.8.10
+Using minitest 5.14.4
+Using tzinfo 2.0.4
+Using zeitwerk 2.4.2
+Using activesupport 6.1.4
+Using addressable 2.4.0
+Using blankslate 2.1.2.4
+Using bundler 2.1.4
+Using fast-stemmer 1.0.2
+Using classifier-reborn 2.2.0
+Using coffee-script-source 1.12.2
+Using execjs 2.8.1
+Using coffee-script 2.4.1
+Using colorator 0.1
+Using multipart-post 2.1.1
+Using faraday 0.17.3
+Using ffi 1.15.3 (x86-mingw32)
+Using gemoji 2.1.0
+Using racc 1.5.2
+Using nokogiri 1.11.7 (x86-mingw32)
+Using html-pipeline 1.9.0
+Using jekyll-coffeescript 1.0.1
+Using sawyer 0.8.2
+Using octokit 4.21.0
+Using jekyll-gist 1.5.0
+Using jekyll-paginate 1.1.0
+Using rb-fsevent 0.11.0
+Using rb-inotify 0.10.1
+Using sass-listen 4.0.0
+Using sass 3.7.4
+Using jekyll-sass-converter 1.3.0
+Using listen 3.5.1
+Using jekyll-watch 1.5.1
+Using kramdown 1.5.0
+Using liquid 2.6.2
+Using mercenary 0.3.6
+Using posix-spawn 0.3.15
+Using yajl-ruby 1.2.3
+Using pygments.rb 0.6.3
+Using redcarpet 3.3.2
+Using safe_yaml 1.0.5
+Using parslet 1.5.0
+Using toml 0.1.2
+Using jekyll 2.4.0
+Using jemoji 0.5.0
+Using wdm 0.1.1
+Bundle complete! 5 Gemfile dependencies, 47 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+E:\butir>bundle update
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies.....
+Using concurrent-ruby 1.1.9
+Using i18n 1.8.10
+Using minitest 5.14.4
+Using tzinfo 2.0.4
+Using zeitwerk 2.4.2
+Using activesupport 6.1.4
+Using public_suffix 4.0.6
+Using addressable 2.7.0 (was 2.4.0)
+Using bundler 2.1.4
+Using colorator 1.1.0 (was 0.1)
+Using eventmachine 1.2.7 (x86-mingw32)
+Using http_parser.rb 0.6.0
+Using em-websocket 0.5.2
+Using multipart-post 2.1.1
+Using faraday 0.17.3
+Using ffi 1.15.3 (x86-mingw32)
+Using forwardable-extended 2.6.0
+Using gemoji 3.0.1 (was 2.1.0)
+Using racc 1.5.2
+Using nokogiri 1.11.7 (x86-mingw32)
+Using html-pipeline 2.14.0 (was 1.9.0)
+Using sassc 2.4.0
+Using jekyll-sass-converter 2.1.0 (was 1.3.0)
+Using rb-fsevent 0.11.0
+Using rb-inotify 0.10.1
+Using listen 3.5.1
+Using jekyll-watch 2.2.1 (was 1.5.1)
+Using rexml 3.2.5
+Using kramdown 2.3.1 (was 1.5.0)
+Using kramdown-parser-gfm 1.1.0
+Using liquid 4.0.3 (was 2.6.2)
+Using mercenary 0.4.0 (was 0.3.6)
+Using pathutil 0.16.2
+Using rouge 3.26.0
+Using safe_yaml 1.0.5
+Using unicode-display_width 1.7.0
+Using terminal-table 2.0.0
+Using jekyll 4.2.0 (was 2.4.0)
+Using sawyer 0.8.2
+Using octokit 4.21.0
+Using jekyll-gist 1.5.0
+Using jemoji 0.12.0 (was 0.5.0)
+Using wdm 0.1.1
+Bundle updated!
+1603
+
+E:\butir>bundle exec jekyll serve
+Configuration file: E:/butir/_config.yml
+            Source: E:/butir
+       Destination: E:/butir/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 3.796 seconds.
+ Auto-regeneration: enabled for 'E:/butir'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+	
+Without modification -- install then update
+add farady
+
+https://stackoverflow.com/questions/59558141/jekyll-minimal-mistakes-theme-throwing-uninitialized-constant-faradayerrorc
