@@ -13,7 +13,7 @@ oo: false
 svgphys: true
 category: code
 tags: ["research", "abm", "matrix", "world"]
-date: 2021-07-08 05:41:00 +0700
+date: 2021-07-08 06:05:00 +0700
 permalink: /0060
 src: https://github.com/dudung/butir/commits/main/_posts/0/06/2021-07-08-matrix-world-2d.md
 twitter_username: 6unpnp
@@ -29,6 +29,10 @@ World matrix $\bf W$ represents the discretized two-dimensional spatial space. I
 4. There is relation between matrix indices with real coordinates ($y$ &lfloor;_ $x$) in the form of $x = (i - \frac12) \Delta x$ and $y = (N_y - j + \frac12) \Delta y$, so that real coordinates $(x, y)$ can be represented by grid indices $(i, j)$.
 5. Inverse of the previous relations are $i = \lceil x / \Delta x \rceil$ and $i = N_y - \lceil y / \Delta y \rceil + 1$.
 6. Initially $w_{ij} = 0$ for $i = 1, \ .., N_x$ and $j = 1, \ .., N_y$.
+
+
+## implementation
+Previous concept can be implemented in `x` as follows.
 
 
 ## notes
