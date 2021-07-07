@@ -34,7 +34,7 @@ I have forgotten when it started, but it might be still in the 2021 after the WF
 
 
 ## notes
-1. <a name="r01"></a>Nuning Nurani et al., "Pengaruh Perilaku Penggunaan Masker dengan Teori Permainan pada Model Epidemiologi SIR", draft, 7 Jul 2021. 
+1. <a name="r01"></a>Nuning Nuraini et al., "Pengaruh Perilaku Penggunaan Masker dengan Teori Permainan pada Model Epidemiologi SIR", draft, 7 Jul 2021. 
 `Nuraini-draft-07-07-2021`
 2. <a name="r02"></a>Armi Susandi, Intan Taufik, Pingkan Aditiawati, Sparisoma Viridi, "The relation between agent-based model and susceptible-infected-recovered model for spread of disease", in The 9th National Physics Seminar, (SNF)-2020, edited by Hadi Nasbey, Riser Fahdiran, Widyaningrum Indrasari, Esmar Budi, Fauzi Bakri, Teguh Budi Prayitno, Dewi Muliyati, AIP Conference Proceedings 2320, American Institute of Physics, Melville, NY, 2021, pp. 050032, url <https://doi.org/10.1063/5.0038221>.
 3. <a name="r03"></a>S. Viridi, F. Haryanto, "Agent-based Model and its Potential in Simulating Some Physical Systems", IOP Conference Series: Materials Science and Engineering 559 (1), 012008 (2019), url <https://doi.org/10.1088/1757-899X/599/1/012008>.
