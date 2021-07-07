@@ -13,7 +13,7 @@ oo: false
 svgphys: true
 category: code
 tags: ["research", "mask", "sir", "abm", "js"]
-date: 2021-07-08 05:25:00 +0700
+date: 2021-07-08 05:39:00 +0700
 permalink: /0044
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-08-sir-abm-grid-2d.md
 twitter_username: 6unpnp
@@ -31,6 +31,7 @@ I have forgotten when it started, but it might be still in the 2021 after the WF
 3. As a matrix it begins at the left upper right cornet for element $w_{11}$, then followed by element $w_{1N_x}$ at the upper right corner and element $w_{N_y1}$ at the lower left corner, and finished by element $w_{N_yN_x}$ at the lower right corner.
 4. There is relation between matrix indices with real coordinates ($y$ &lfloor;_ $x$) in the form of $x = (i - \frac12) \Delta x$ and $y = (N_y - j + \frac12) \Delta y$, so that real coordinates $(x, y)$ can be represented by grid indices $(i, j)$.
 5. Inverse of the previous relations are $i = \lceil x / \Delta x \rceil$ and $i = N_y - \lceil y / \Delta y \rceil + 1$.
+6. Initially $w_{ij} = 0$ for $i = 1, \ .., N_x$ and $j = 1, \ .., N_y$.
 
 
 ## notes
