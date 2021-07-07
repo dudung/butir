@@ -13,7 +13,7 @@ oo: false
 svgphys: true
 category: code
 tags: ["research", "mask", "sir", "abm", "js"]
-date: 2021-07-08 05:56:00 +0700
+date: 2021-07-08 06:02:00 +0700
 permalink: /0044
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-08-sir-abm-grid-2d.md
 twitter_username: 6unpnp
