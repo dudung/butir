@@ -26,7 +26,7 @@ This started yesterday.
 
 
 ## concepts
-[2d world matrix](0060) &bull; ..
+$\blacksquare\Box\Box\Box\Box\Box\Box\Box\Box\Box$ -- [2d world matrix](0060)
 
 
 ## notes
