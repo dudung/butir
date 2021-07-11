@@ -25,13 +25,6 @@ This is recorded four days later.
 + `06-Jul-21` Announcement of pra-proposal acceptance and information to submit the full proposal in three days.
 + `10-Jun-21` Submit the pra-proposal with a very raw idea about characterization service in campus related to halal support.
 
-
-{% comment %}
-## concepts
-$\blacksquare\Box\Box\Box\Box\Box\Box\Box\Box\Box$ &nbsp; [2d world matrix](0060)
-{% endcomment %}
-
-
 ## notes
 1. <a name="r01"></a>Ard W. Lazonder, Harm J.A. Biemans, Iwan G.J.H. Wopereis, "Differences between novice and experienced users in searching information on the World Wide Web", Journal of the American Society for Information Science [J. Am. Soc. Inf. Sci. Tech.], vol. 51, no. 6, pp. 576-581, Mar 2000, url <https://doi.org/10.1002/(SICI)1097-4571(2000)51:6&lt;576::AID-ASI9&gt;3.0.CO;2-7>. `JAmSocInfSciTech-51-6-576-2000`
 2. <a name="r02"></a>John Dimmick, Yan Chen, Zhan Li, "Competition Between the Internet and Traditional News Media: The Gratification-Opportunities Niche Dimension", Journal of Media Economics [J. Media Econ.], vol. 17, no. 1, pp. 19-33, Nov 2009, url https://doi.org/10.1207/s15327736me1701_2. `JMediaEcon-17-1-19-2009`
