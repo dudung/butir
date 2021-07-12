@@ -21,6 +21,7 @@ nodes: ['0000', '0002']
 ---
 The formal record start today 11 July 2021.
 
++ `12-Jul-21` PREMISE final presentation [[4](#r04)]. Noch eine Verö́ffentlichung oder zwei. 
 + `11-Jul-21` Preparing for final presentation and explanation to wind activity [[3](#r03)].
 + `09-Jul-21` Discuss the role of airborne particle in transmitting SARS-CoV-2 [[1](#r01)] and aerosol loading during lockdown [[2](#r02)].
 
@@ -29,3 +30,4 @@ The formal record start today 11 July 2021.
 2. <a name="r01"></a> S. D. Sanap, "Global and regional variations in aerosol loading during COVID-19
 imposed lockdown", Atmospheric Environment [Atmos. Environ.] vol. 246, no., p. 118132, Feb 2021, url <https://doi.org/10.1016/j.atmosenv.2020.118132>. `AtmosEnviron-246-118132-2021`
 3. <a name="r03"></a>Asep Sofyan, Toshihiro Kitada, Gakuji Kurata, "Characteristics of local flow in Jakarta, Indonesia and its implication in air pollution transport", in Proceedings of Atmospheric Sciences and Air Quality Conference, San Francisco, California, April 2005, pp. 27-29, url <https://ams.confex.com/ams/pdfpapers/90815.pdf> [20210711]. `ASAQC-27-2005`
+4. <a name="r04"></a>"Presentasi Laporan Akhir", Senin, 12 Juli 2021, 1345-1430, url <https://us02web.zoom.us/j/89510746450> [20210712].
