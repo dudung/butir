@@ -13,13 +13,14 @@ oo: false
 svgphys: true
 category: code
 tags: ["research", "naive", "self", "farming", "home", "new chilli plant"]
-date: 2021-07-19 03:05:00 +0700
+date: 2021-07-19 16:48:00 +0700
 permalink: /0043
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-04-naive-self-farming.md
 twitter_username: 6unpnp
 nodes: ['0000', '0002']
 ---
 I have forgotten when it started, but it might be still in the 2021 after the WFH begins for a year.
++ `19-Jul-21` Siram pagi jam 8-an dan tidak di sore hari karena hujan. Alhamdulillah. Belum ada perubahan. Tadi pagi teramati mulai banyak semut dan tanah terlihat berpori-pori.
 + `18-Jul-21` Ayak hasil kira-kira sebulan yang lalu bagian paling kanan dan dapat satu polibag sekitar 6 kaleng buah koktail, tanah tidak dipadatkan. Lalu satu biji cabe ditanamkan, disiram, dan di atasnya dua bekas bag teh celup sudah dikeringkan, diletakkan di atas pagar paling kiri. Di kiri kaleng-kaleng sebelumnya.
 + `17-Jul-21` Bagi bak daur ulang sampah dapur (BDUSD) sisi kanan dan kiri diberi kawat 0.5 cm mesh pemisah. Dari kiri ke kanan menjadi empat bagian. (1) tanaman hijau merah pindahan dari bawang, biji mangga, alpukat, lengkeng, ginsen daun lebar, dan semangka; (2) kosong; (3) sisa dapur nabati potong-potong kecil; (4) sebelan lalu timbung tanpa potong.
 + `11-Jul-21` Pindahkan cabe terkiri ke pot yang sebulan terisi sisa dapur tanaman terbusukkan alami + EM4. Buat rongga di tengahnya dan campurkan tanah dari bak pengolahan (sudah lumayan jadi tanah). Tanaman agak pendek karen pucuknya sempat terjalin kepompong ulat. Dipilih karena paling besar batangnya tetapi bukan paling tinggi. Pepaya kecil sisakan satu. Agak layu saat dipindah, kuatir tidak tahan stres. Lainnya ditumis dan tetap pahit. Belum tahu cara memanfaatkannya padahal mudah tumbuh dan menarik.
