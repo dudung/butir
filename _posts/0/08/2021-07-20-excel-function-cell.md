@@ -1,7 +1,7 @@
 ---
 layout: butir
 authors: [viridi]
-title: excel functions cell
+title: excel function cell
 pid: '0080'
 mathjax: true
 chartjs: false
@@ -12,90 +12,32 @@ threejs: false
 oo: false
 svgphys: false
 category: literatures
-tags: ["excel", "function", "cell", "address", "data", "index"]
-date: 2021-07-20 05:26:00 +0700
+tags: ["excel", "function", "cell", "address", "data", "index", "lookup", "value", "non-empty"]
+date: 2021-07-20 06:05:00 +0700
 permalink: /0080
 src: https://github.com/dudung/butir/commits/main/_posts/0/08/2021-07-20-excel-function-cell.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
-Learning about Microsoft Excel functions related to cell and its address, such as `INDEX` [[1](#r01)]
+Learning about Microsoft Excel functions related to cell in get cell value by address [[1](#r01)], find the last non-empty cell [[2](#r02)],
 
-## codes
-File is `arg_parse.py`
-
-```python
-"""
-	arg_parse.py
-"""
-
-import argparse
-
-def parse_arguments():
-	parser = argparse.ArgumentParser(description='Argument get parse via --commands')
-	parser.add_argument("-x", metavar='value', required=True, help='first value to parse')
-	parser.add_argument("-y", metavar='value', required=True, help='second value to parse')
-	
-	args = parser.parse_args()
-	
-	return args
-
-def main():
-	print('first value is ', args.x, sep='')
-	print('second value is ', args.y, sep='')
-	
-if __name__ == '__main__':
-	args = parse_arguments()
-	main()
+## index
+Format `INDEX(array, row_num, [col_num])`, where `array` is something like `'Sheet'!A1:C4`, and `row_num` and `col_num` are simply a number. Following
 ```
-
-## results
-Previous file can be executed as follows with the results
-
+=INDEX('MyData'!C3:F5, 2, 3)
 ```
-L:\home\butir\code\0\07\1>py arg_parse.py -h
-usage: arg_parse.py [-h] -x value -y value
+will give the value of cell with address `E4` in the sheet with name `MyData`.
 
-Argument get parse via --commands
-
-optional arguments:
-  -h, --help  show this help message and exit
-  -x value    first value to parse
-  -y value    second value to parse
+## lookup
+Format `LOOKUP(lookup_value, lookup_vector, [result_vector])`, where `look_value` is the value to be found, but when it can not be found then it will match the next smallest value, `lookup_vector` is a vector with values to be examined, and `result_vector` is a vector with component to be displayed. Then
 ```
-
-to see the help,
-
+=LOOKUP(2, 1/('MyData'!K:K <> ""), 'MyData'!L:L)
 ```
-L:\home\butir\code\0\07\1>py arg_parse.py
-usage: arg_parse.py [-h] -x value -y value
-arg_parse.py: error: the following arguments are required: -x, -y
-
-L:\home\butir\code\0\07\1>py arg_parse.py -y
-usage: arg_parse.py [-h] -x value -y value
-arg_parse.py: error: argument -y: expected one argument
-
-L:\home\butir\code\0\07\1>py arg_parse.py -y 2.5
-usage: arg_parse.py [-h] -x value -y value
-arg_parse.py: error: the following arguments are required: -x
-
-L:\home\butir\code\0\07\1>py arg_parse.py -y 2.5 -x
-usage: arg_parse.py [-h] -x value -y value
-arg_parse.py: error: argument -x: expected one argument
-```
-
-to test whether all two arguments are provided, and
-
-```
-L:\home\butir\code\0\07\1>py arg_parse.py -y 2.5 -x -220
-first value is -220
-second value is 2.5
-```
-
-to get the intended result. See documentation [[1](#r01)] for further information.
+will give
 
 ## notes
-1. <a name="r01"></a>
+1. <a name="r01"></a>Steve Rynearson, "Get Cell Value by Address (Row & Column) – Excel & Google Sheets", Automate Excel, url <https://www.automateexcel.com/formulas/get-cell-value-by-address-row-column/> [20210720].
+2. <a name="r02"></a>Dave Bruns, Lisa Bruns, "Get value of last non-empty cell", Exceljet, url <https://exceljet.net/formula/get-value-of-last-non-empty-cell> [20210720].
 
 ## &nbsp;
 [introduction](0000) &bull;
