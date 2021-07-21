@@ -12,8 +12,8 @@ threejs: false
 oo: false
 svgphys: false
 category: literatures
-tags: ["excel", "function", "cell", "address", "data", "index", "lookup", "value", "non-empty"]
-date: 2021-07-21 10:58:00 +0700
+tags: ["excel", "function", "cell", "address", "data", "index", "lookup", "address", "value", "non-empty"]
+date: 2021-07-21 14:31:00 +0700
 permalink: /0080
 src: https://github.com/dudung/butir/commits/main/_posts/0/08/2021-07-20-excel-function-cell.md
 twitter_username: 6unpnp
