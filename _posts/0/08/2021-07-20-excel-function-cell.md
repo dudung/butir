@@ -33,7 +33,7 @@ Format `LOOKUP(lookup_value, lookup_vector, [result_vector])`, where `look_value
 ```
 =LOOKUP(2, 1/('MyData'!K:K <> ""), 'MyData'!L:L)
 ```
-will give
+will give find the last non-empty row of colum `K:K` and use it to show the corrresponding row in column `L:L`. It is not necessary to use `'MyData'` when refering cell in the same sheet. The `('MyData'!K:K <> "")` will create array of `true` and `false` which will be treated as `1` and `0` when operated through `1/('MyData'!K:K <> "")`.
 
 ## notes
 1. <a name="r01"></a>Steve Rynearson, "Get Cell Value by Address (Row & Column) – Excel & Google Sheets", Automate Excel, url <https://www.automateexcel.com/formulas/get-cell-value-by-address-row-column/> [20210720].
