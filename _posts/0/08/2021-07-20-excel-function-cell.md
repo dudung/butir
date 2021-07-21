@@ -60,6 +60,13 @@ C2
 ```
 respectively, as cell references.
 
+## resume
+Following image shows the use of `INDEX`, `LOOKUP`, `INDIRECT`, and `ADDRESS` functions.
+
+![](assets/img/0/08/0080-a.png)
+
+Please refer to previous section for detail of each function.
+
 ## notes
 1. <a name="r01"></a>Steve Rynearson, "Get Cell Value by Address (Row & Column) – Excel & Google Sheets", Automate Excel, url <https://www.automateexcel.com/formulas/get-cell-value-by-address-row-column/> [20210720].
 2. <a name="r02"></a>Dave Bruns, Lisa Bruns, "Get value of last non-empty cell", Exceljet, url <https://exceljet.net/formula/get-value-of-last-non-empty-cell> [20210720].
