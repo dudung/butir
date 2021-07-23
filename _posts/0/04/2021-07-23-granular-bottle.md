@@ -13,13 +13,13 @@ oo: false
 svgphys: false
 category: code
 tags: ["research", "granular bottle"]
-date: 2021-07-23 08:05:00 +0700
+date: 2021-07-23 11:17:00 +0700
 permalink: /0047
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-23-granular-bottle.md
 twitter_username: 6unpnp
 nodes: ['0000', '0002']
 ---
-Confusing in preserving collected sample, where for sand theis a lot of ways but expensive [[1](#r01)].
+Confusing in preserving collected sample, where for sand there is a lot of ways but expensive [[1](#r01)].
 
 + `23-Jul-21` Searching for the right size of sillica gel packet, where the packet size is what matter.
 
