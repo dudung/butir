@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: code
 tags: ["research", "granular bottle"]
-date: 2021-07-23 11:17:00 +0700
+date: 2021-07-23 23:36:00 +0700
 permalink: /0047
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-23-granular-bottle.md
 twitter_username: 6unpnp
@@ -22,7 +22,6 @@ nodes: ['0000', '0002']
 Confusing in preserving collected sample, where for sand there is a lot of ways but rather expensive [[1](#r01)].
 
 + `23-Jul-21` Searching for the right size of sillica gel packet, where the packet size is what matter.
-
 
 
 ## sillica gel packet
@@ -37,6 +36,8 @@ Price (IDR) | Pieces () | Mass (g) | Size (cm &times; cm) | Ref
  9,999 |  100 | 1 | 4.5 &times; 3   | [[6](#r06)]
  7,500 |   40 | - | -               | [[7](#r07)]
 58,500 | 1000 | 1 | -               | [[8](#r08)]
+
+Not yet decided, which to buy. Perhaps [[8](#r08)] will be called first.
 
 ## notes
 1. <a name="r01"></a>Justine E. Hausheer, "Secret Confessions of A Sand Collector", The Nature Conservancy, 28 Nov 2018, url <https://blog.nature.org/science/2018/11/28/secret-confessions-of-a-sand-collector/> [20210723].
