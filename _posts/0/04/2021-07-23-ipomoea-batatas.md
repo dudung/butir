@@ -15,7 +15,7 @@ category: code
 tags: ["research", "uji jalar", "sweet potato", "ipomoea batatas"]
 date: 2021-07-23 23:21:00 +0700
 permalink: /0048
-src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-23-ipomoea-batatas
+src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-23-ipomoea-batatas.md
 twitter_username: 6unpnp
 nodes: ['0000', '0002']
 ---
