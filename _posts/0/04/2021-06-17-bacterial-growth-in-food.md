@@ -1,6 +1,6 @@
 ---
 layout: butir
-authors: [viridi, rahimah, tallei]
+authors: [rahimah, viridi]
 title: bacterial growth in food
 pid: '0042'
 mathjax: false
@@ -13,14 +13,15 @@ oo: false
 svgphys: true
 category: code
 tags: ["discussion", "food", "engineering", "bacterial growth in food"]
-date: 2021-06-26 21:10:00 +0700
+date: 2021-06-26 21:12:00 +0700
 permalink: /0042
-src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-06-17-food-processing-model.md
+src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-06-17-backterial-growth-in-food.md
 twitter_username: 6unpnp
 nodes: ['0000']
 ---
 It will be updated tomorrow [[1](#r01)].
 
++ `26-Jul-21` Rename it from food processing and remove tallei.
 + `21-Jun-21` PSA data was forwarded by Rahimah from Nurul.
 + `18-Jun-21` Two docs are shared: a) Analisis Karakteristik Kefir Susu Kambing dengan Penambahan Madu (Rahimah, Ramdhania), b) Skripsi from Tantyana Rachmania S (forget to downolad).
 ## notes
