@@ -20,7 +20,7 @@ twitter_username: 6unpnp
 nodes: ['0000', '0002']
 ---
 Recorded two days later.
-+ `24-Jul-21` Online meeting with Nurhayati and Anjar Asmara. Plan to join APS 2021 [[1](#r01)].
++ `24-Jul-21` Online meeting with Nurhayati and Anjar Asmara. Plan to join APS 2021 [[1](#r01)]. Data is given but without drawing. Confirmation is required.
 
 <!--br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /-->
 
