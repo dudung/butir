@@ -13,7 +13,7 @@ oo: false
 svgphys: false
 category: code
 tags: ["research", "granular bottle"]
-date: 2021-07-23 23:36:00 +0700
+date: 2021-07-28 19:13:00 +0700
 permalink: /0047
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-23-granular-bottle.md
 twitter_username: 6unpnp
@@ -21,8 +21,18 @@ nodes: ['0000', '0002']
 ---
 Confusing in preserving collected sample, where for sand there is a lot of ways but rather expensive [[1](#r01)].
 
++ `28-Jul-21` Get information plastic kale 250 ml in the same city.
 + `23-Jul-21` Searching for the right size of sillica gel packet, where the packet size is what matter.
 
+
+## plastic bottle
+Get one choice at [Shopee](https://shopee.co.id/).
+
+Price (IDR) | Massa (g) | Diameter (cm) | Height (cm) | Cap diameter (cm) |Cap color | Materials | Minimum quantity () |  Ref
+--: | --: | :-:
+1500 | 27 | 5 | 16 | 3.5 | PET | B, W | 100 | [[9](#r09)]
+
+PET stands for Polyethylene Terephthalate, B for black, W for white.
 
 ## sillica gel packet
 There are three choices at [Shopee](https://shopee.co.id/).
@@ -37,7 +47,7 @@ Price (IDR) | Pieces () | Mass (g) | Size (cm &times; cm) | Ref
  7,500 |   40 | - | -               | [[7](#r07)]
 58,500 | 1000 | 1 | -               | [[8](#r08)]
 
-Not yet decided, which to buy. Perhaps [[8](#r08)] will be called first.
+Not yet decided, which to buy. Perhaps [[8](#r08)] will be called first, since it is the nearest.
 
 ## notes
 1. <a name="r01"></a>Justine E. Hausheer, "Secret Confessions of A Sand Collector", The Nature Conservancy, 28 Nov 2018, url <https://blog.nature.org/science/2018/11/28/secret-confessions-of-a-sand-collector/> [20210723].
@@ -48,4 +58,4 @@ Not yet decided, which to buy. Perhaps [[8](#r08)] will be called first.
 6. <a name="r06"></a>raviputra13, "Silica Gel Alami Termurah \| Silica Anti Jamur isi 100pcs Untuk Sepatu Tas Helm", Shopee, Sewon, Bantul, DI Yogyakarta, url <https://shopee.co.id/x-i.146142106.4034337707> [20210723].
 7. <a name="r07"></a>toko.yga, "Silica Gel 40 pcs / Brataco Gel Silika Food Grade", Shopee, Bandung Kulon, Bandung Jawa Barat, url <https://shopee.co.id/x-i.263505037.11200092890> [20210723].
 8. <a name="r08"></a>silicagelspesialist, "Silica Ge whitel 5gr", Parongpong, Bandung Barat, Jawa Barat, url <https://shopee.co.id/x-i.14925816.1174526405> [20210723].
-
+9. <a name="r09"></a>tokokemasan, "Botol premi kale 250 ml KHUSUS BANDUNG minimal 100 pcs", Shopee, Kiara Condong, Kota Bandung, Jawa Barat, url <https://shopee.co.id/x-i.9397759.2892813610> [20210728].
