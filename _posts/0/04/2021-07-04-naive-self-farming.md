@@ -13,13 +13,17 @@ oo: false
 svgphys: true
 category: code
 tags: ["research", "naive", "self", "farming", "home", "new chilli plant", "paper ash", "egg shell"]
-date: 2021-07-25 10:54:00 +0700
+date: 2021-07-31 20:28:00 +0700
 permalink: /0043
 src: https://github.com/dudung/butir/commits/main/_posts/0/04/2021-07-04-naive-self-farming.md
 twitter_username: 6unpnp
 nodes: ['0000', '0002']
 ---
 I have forgotten when it started, but it might be still in the 2021 after the WFH begins for a year.
++ `31-Jul-21` Tumbuhan cabe masih berusaha tumbuh. Tidak layu. Dapatkan dari L1 rambutan sudah ada dauan, alpukat baru daun awal, lengkeng baru akar, tiga jeruk sudah ada akar. Pisahkan masing-masing dalam pot terpisah. Kedua lobak putih melayu. Bagian bawahnya tercoak dan agak layu tidak terbentuk akar seperti yang diharapkan. Tersisa satu yang paling bagus dan tambahkan sekam. Dari salah satu polibag lobak yang gagal ditanamkan biji alpukat hitam dari L4 yang ditemukan. Belum busuk ataupun tumbuh. Posisi dari kiri ke kanan, polibag alpukat, lalu kedua mangga kemarin dan karung organik yang dibeli. Alhamdulillah keladi tikus varigata yang tinggal satu lembar dauan kecil (dari sempat awalnya besar-besar), teramati ada daun baru. Temulawak paling kiri agak kuning daunnya tidak tahu mengapa. Tanam apel yang biji-bijinya sudah berkecambah di letakkan di dekat ginseng dan pepaya baru. Potong sedikit kulit jenis petai yang berukuran 1 cm &times 10 cm-an.
++ `30-Jul-21` Tanaman merambat teratas dari rak putih ditangani. Terlihat media tanamnya adalah sekam bukan bakar. Tambahkan tanah hasil olahan organik dapur. Satu pot sekitar tujuh. Letakkan lagi di rak putih. Ada satu wadah bekas kedelai Adik yang digunakan juga tujuh buah titip juga di rambutan dan mangga. Masinng-masing satu. Ada yang tertukar arahnya. Akan amati apakah yang terbalik akan tumbuh. Dua dibiarkan melingkar dan dibiarkan di bak pada posisi L1. Siram-sirsam saja. Dua biji mangga terakhir yang masih orannye ditanamkan di polibag dengan tanah L4 tanpa disaring. Letakkan mepet dinding di bawah jendela perpus. Ubah beberapa urutan pot dan polibag dekat dinding tetangga depan teras.
++ `28-Jul-21` Hari amat panas dan lupa siram. Kedua daun awal (lembar kecambah ?) layu. Kuatir akan tak tumbuh. Ada kecambah lain di sisi bawah (terjauh dari tembok).
++ `27-Jul-21` Biji cabe yang satu mulai terlihat, kira-kira kurang dari 1 cm.
 + `25-Jul-21` Bakar kertas bon, mayoritas putih ketimbang hitam. Tumbuk kulit telur. Potong kulit manggis. Tambahkan ke ke lokasi 3 (L3) dari kiri di atas tumpukan sebelumnya. Lalu airkan sedikit. Organik lokasi 4 (L4) belum lagi dipanen. Terakhir yang cabe butir di polibeg dan belum bertunas. Baru kurang seminggu yang lalu. Mungkin besek bambu tape akan dipotong sore nanti.
 + `19-Jul-21` Siram pagi jam 8-an dan tidak di sore hari karena hujan medium light dan ada hampir sejaman. Alhamdulillah. Belum ada perubahan. Tadi pagi teramati mulai banyak semut dan tanah terlihat berpori-pori.
 + `18-Jul-21` Ayak hasil kira-kira sebulan yang lalu bagian paling kanan dan dapat satu polibag sekitar 6 kaleng buah koktail, tanah tidak dipadatkan. Lalu satu biji cabe ditanamkan, disiram, dan di atasnya dua bekas bag teh celup sudah dikeringkan, diletakkan di atas pagar paling kiri. Di kiri kaleng-kaleng sebelumnya.
